@@ -1,0 +1,186 @@
+cc.Class({
+  extends: cc.Component,
+
+  properties: {
+    tokens: cc.SpriteFrame
+  },
+
+  /* 目標節點是否點擊過 */
+  isGridActived(row, col) {
+    return this.gridBox[row][col].params.isActived;
+  },
+
+  /* 網格hover樣式 */
+  gridMouseEnterStyle(row, col) {
+    let graphics = this.gridBox[row][col].getComponent(cc.Graphics);
+    graphics.clear();
+    graphics.fillColor = new cc.Color(255, 255, 255, 100);
+    graphics.fillRect(0, 0, this.gridSize, this.gridSize);
+    graphics.enabled = true;
+  },
+
+  /* 清除網格hover樣式 */
+  gridMouseLeaveStyle(row, col) {
+    let graphics = this.gridBox[row][col].getComponent(cc.Graphics);
+    graphics.clear();
+    graphics.enabled = false;
+  },
+
+  /* 繪製網格 */
+  spawnGrid(row, col) {
+    let node = new cc.Node("Grid" + "_" + row + "_" + col);
+    /* hover 樣式 */
+    let graphics = node.addComponent(cc.Graphics);
+    graphics.enabled = false;
+
+    /* images */
+    let sprite = node.addComponent(cc.Sprite);
+    sprite.enabled = false;
+
+    /* 節點資訊 */
+    node.params = {
+      hasShip: false,
+      isActived: false,
+      status: null
+    };
+    node.x = col * this.gridSize;
+    node.y = row * this.gridSize;
+    node.width = node.height = this.gridSize;
+    node.parent = this.node;
+    return node;
+  },
+
+  /* 繪製棋盤，將網格以二維陣列存放 */
+  spawnBoard() {
+    for (let row = 0; row < 10; row++) {
+      let colTemp = [];
+      for (let col = 0; col < 10; col++) {
+        colTemp[col] = this.spawnGrid(row, col);
+      }
+      this.gridBox[row] = colTemp
+    }
+  },
+
+  /* 給上層呼叫的啟動函式 */
+  startHandler() {
+    this.enabled = true;
+    /* 繪製棋盤 */
+    this.spawnBoard();
+    this.gridBox[0][0].params.hasShip = true;
+
+    /* 開始監聽 */
+    this.node.on(cc.Node.EventType.MOUSE_ENTER, this.mouseEnterHandler, this);
+    this.node.on(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
+    this.node.on(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
+    this.node.on(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
+  },
+
+  /* 透過座標取得對應的行列（陣列索引） */
+  getCurrentLocation(y, x) {
+    return [
+      /* row */
+      parseInt((y - this._startY) / this.gridSize),
+      /* col */
+      parseInt((x - this._startX) / this.gridSize)
+    ];
+  },
+
+  /* ============================================ */
+  /* event listeners */
+  /* ============================================ */
+  mouseEnterHandler(event) {
+    let {
+      x,
+      y
+    } = event.getLocation();
+    /* 記錄進入座標 */
+    [this._prevGridRow, this._prevGridCol] = this.getCurrentLocation(y, x);
+  },
+
+  mouseMoveHandler(event) {
+    let {
+      x,
+      y
+    } = event.getLocation();
+    let [currentRow, currentCol] = this.getCurrentLocation(y, x);
+    /* 當前網格沒有狀態才渲染樣式 */
+    if (!this.isGridActived(currentRow, currentCol))
+      this.gridMouseEnterStyle(currentRow, currentCol);
+
+    /* 處理前一個座標 */
+    if (this._prevGridRow !== currentRow || this._prevGridCol !== currentCol) {
+      /* 樣式還原 */
+      this.gridMouseLeaveStyle(this._prevGridRow, this._prevGridCol);
+      /* 更新變數 */
+      this._prevGridRow = currentRow;
+      this._prevGridCol = currentCol;
+    }
+  },
+
+  mouseLeaveHandler() {
+    /* 當前網格已狀態就不處理 */
+    if (this.isGridActived(this._prevGridRow, this._prevGridCol))
+      return false;
+    this.gridMouseLeaveStyle(this._prevGridRow, this._prevGridCol);
+  },
+
+  mouseDownHandler(event) {
+    let {
+      x,
+      y
+    } = event.getLocation();
+    let [currentRow, currentCol] = this.getCurrentLocation(y, x);
+    /* 當前網格已狀態就不處理 */
+    if (this.isGridActived(currentRow, currentCol))
+      return false;
+
+    /* 當前網格沒有狀態就將樣式還原 */
+    this.gridMouseLeaveStyle(currentRow, currentCol);
+
+    /* 目標節點 */
+    let targetNode = this.gridBox[currentRow][currentCol];
+    /* 點擊的目標有船表示擊中 */
+    let isHit = targetNode.params.hasShip;
+    /* 拿節點中的精靈 */
+    let sprite = targetNode.getComponent(cc.Sprite);
+    /* 變更渲染起始點 */
+    sprite.node.anchorX = sprite.node.anchorY = 0;
+    /* 選染模式 */
+    sprite.sizeMode = 0;
+    /* 擊中與未擊中的樣式 */
+    sprite.spriteFrame = isHit ? this.hitSpriteFrame : this.missSpriteFrame;
+    /* 顯示精靈 */
+    sprite.enabled = true;
+    /* 更新目標節點狀態 */
+    targetNode.params.isActived = true;
+    targetNode.params.status = isHit ? 'hit' : 'miss';
+  },
+
+  // LIFE-CYCLE CALLBACKS:
+
+  onLoad() {
+    this.enabled = false;
+    this.gridSize = 50;
+    this.node.width = this.node.height = 500;
+    /* 網格容器 */
+    this.gridBox = new Array(10).fill(new Array(10).fill(null));
+
+    /* 計算座標用的 private variable */
+    this._startX = 95.5;
+    this._startY = 205;
+    this._prevGridRow = null;
+    this._prevGridCol = null;
+
+    /* 打擊狀態 */
+    this.missSpriteFrame = this.tokens.clone()
+    this.missSpriteFrame.setRect(new cc.rect(32, 0, 32, 32));
+    this.hitSpriteFrame = this.tokens.clone();
+    this.hitSpriteFrame.setRect(new cc.rect(64, 0, 32, 32));
+  },
+
+  start() {
+
+  },
+
+  // update (dt) {},
+});
