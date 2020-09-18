@@ -223,5 +223,12 @@ cc.Class({
 
   },
 
+  onDestroy() {
+    this.node.off(cc.Node.EventType.MOUSE_ENTER, this.mouseEnterHandler, this);
+    this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
+    this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
+    this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
+  },
+
   // update (dt) {},
 });
