@@ -2,7 +2,8 @@ cc.Class({
   extends: cc.Component,
 
   properties: {
-    tokens: cc.SpriteFrame
+    tokens: cc.SpriteFrame,
+    shipPreFab: cc.Prefab
   },
 
   /* 目標節點是否點擊過 */
@@ -39,13 +40,14 @@ cc.Class({
 
     /* 節點資訊 */
     node.params = {
-      hasShip: false,
+      ship: null,
       isActived: false,
       status: null
     };
     node.x = col * this.gridSize;
     node.y = row * this.gridSize;
     node.width = node.height = this.gridSize;
+    node.zIndex = 2;
     node.parent = this.node;
     return node;
   },
@@ -61,12 +63,45 @@ cc.Class({
     }
   },
 
+  spawnShip(type) {
+    let ship = cc.instantiate(this.shipPreFab);
+    let shipScript = ship.getComponent("ship");
+    shipScript.spawnShip(type);
+
+    /* 檢查重疊 */
+    let checkRepeatLocation = () => {
+      shipScript.getLocation();
+      if (shipScript.location.some(([row, col]) => this.gridBox[row][col].params.ship))
+        checkRepeatLocation();
+      return;
+    }
+    checkRepeatLocation();
+
+    /* 船隻定位 */
+    shipScript.setPosition(
+      shipScript.origin.col * this.gridSize,
+      shipScript.origin.row * this.gridSize
+    );
+    /* 更新變數 */
+    shipScript.location.forEach(([row, col]) => {
+      this.gridBox[row][col].params.ship = shipScript;
+    });
+    this.node.addChild(ship);
+    this.shipBox.push(ship);
+  },
+
   /* 給上層呼叫的啟動函式 */
   startHandler() {
     this.enabled = true;
     /* 繪製棋盤 */
     this.spawnBoard();
-    this.gridBox[0][0].params.hasShip = true;
+
+    /* 繪製戰艦 */
+    this.spawnShip('A');
+    this.spawnShip('B');
+    this.spawnShip('C');
+    this.spawnShip('S');
+    this.spawnShip('P');
 
     /* 開始監聽 */
     this.node.on(cc.Node.EventType.MOUSE_ENTER, this.mouseEnterHandler, this);
@@ -139,8 +174,9 @@ cc.Class({
 
     /* 目標節點 */
     let targetNode = this.gridBox[currentRow][currentCol];
+    let shipScript = targetNode.params.ship;
     /* 點擊的目標有船表示擊中 */
-    let isHit = targetNode.params.hasShip;
+    let isHit = shipScript !== null;
     /* 拿節點中的精靈 */
     let sprite = targetNode.getComponent(cc.Sprite);
     /* 變更渲染起始點 */
@@ -154,6 +190,9 @@ cc.Class({
     /* 更新目標節點狀態 */
     targetNode.params.isActived = true;
     targetNode.params.status = isHit ? 'hit' : 'miss';
+    /* 判斷船隻擊沉 */
+    if (isHit && !shipScript.location.some(([row, col]) => !this.gridBox[row][col].params.isActived))
+      shipScript.setShootDown();
   },
 
   // LIFE-CYCLE CALLBACKS:
@@ -164,6 +203,8 @@ cc.Class({
     this.node.width = this.node.height = 500;
     /* 網格容器 */
     this.gridBox = new Array(10).fill(new Array(10).fill(null));
+    /* 戰艦容器 */
+    this.shipBox = [];
 
     /* 計算座標用的 private variable */
     this._startX = 95.5;

@@ -271,6 +271,7 @@ cc.Class({
 
   onLoad() {
     this.node.zIndex = 1;
+    this.node.opacity = 200;
   },
 
   start() {
