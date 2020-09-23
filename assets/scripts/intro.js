@@ -16,11 +16,8 @@ cc.Class({
   },
 
   start() {
-    console.log('onStart');
     this.background.getComponent('background').setEnabled();
   },
 
-  onDestroy() {
-    console.log('onDestroy');
-  }
+  onDestroy() {}
 });

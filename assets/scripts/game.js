@@ -13,6 +13,9 @@ cc.Class({
     if (number === this.bombActive)
       return;
 
+    if (this.bombCount[number] === 0)
+      return;
+
     cc.loader.loadRes("prefab/bomb_normal", cc.Prefab, (err, prefab) => {
       this.bombBox.forEach((bomb, idx) => {
         if (idx === 0 || idx === number)
@@ -71,16 +74,56 @@ cc.Class({
     this.bombActive = number;
   },
 
+  minusBombCount() {
+    this.bombCount[this.bombActive] -= 1;
+    this.upgradeBombCount();
+    if (this.bombCount[this.bombActive] === 0) {
+      let nextIdx = this.bombCount.findIndex(n => n > 0);
+      if (nextIdx > 0)
+        this.switchActive(null, nextIdx);
+      else
+        this.gameOver('lose');
+    }
+  },
+
+  upgradeBombCount() {
+    this.bombBox.forEach((bomb, idx) => {
+      if (idx !== 0) {
+        let currentCount = this.bombCount[idx];
+        let content = bomb.getChildByName("bottom_flex__item__content");
+        let contentCount = content.getChildByName("bomb_count");
+        contentCount.getComponent(cc.Label).string = 'x ' + currentCount;
+      }
+    });
+  },
+
+  gameOver(status) {
+    if (this.gameStatus !== 'playing')
+      return false;
+
+    this.gameStatus = status;
+    this.board.getComponent('board').overHandler();
+
+    let ans = confirm('game over. you ' + status + '! replay?');
+    if (ans)
+      this.backToIntro();
+  },
+
   // LIFE-CYCLE CALLBACKS:
 
   onLoad() {
     this.bombActive = 0;
     this.bombBox = [, this.bomb1, this.bomb2, this.bomb3];
-
-    this.switchActive(null, 1);
+    this.bombCount = [, 28, 1, 1];
+    this.gameStatus = 'playing';
+    this.upgradeBombCount();
   },
 
   start() {
+    this.switchActive(null, 1);
+    this.board.getComponent('board').setGetActiveBombHandler(() => this.bombActive);
+    this.board.getComponent('board').setGameStatusHandler(this.gameOver.bind(this));
+    this.board.getComponent('board').setMinusBombCountHandler(this.minusBombCount.bind(this));
     this.board.getComponent('board').startHandler();
   },
 

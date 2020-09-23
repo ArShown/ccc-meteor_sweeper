@@ -123,7 +123,6 @@ cc.Class({
     this.spawnMeteor('E');
 
     /* 開始監聽 */
-    this.node.on(cc.Node.EventType.MOUSE_ENTER, this.mouseEnterHandler, this);
     this.node.on(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
     this.node.on(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
     this.node.on(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
@@ -132,7 +131,6 @@ cc.Class({
 
   overHandler() {
     this.meteorBox.forEach(meteor => meteor.active = true);
-    this.node.off(cc.Node.EventType.MOUSE_ENTER, this.mouseEnterHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
@@ -144,57 +142,86 @@ cc.Class({
       let meteorScript = meteor.getComponent("meteor");
       return meteorScript.isShootDown;
     });
-    if (isAllShootDown)
-      this.overHandler();
+    return isAllShootDown;
   },
 
   /* 透過座標取得對應的行列（陣列索引） */
   getCurrentLocation(y, x) {
-    return [
+    let [currentRow, currentCol] = [
       /* row */
       Math.min(9, parseInt((y - this._startY) / this.gridSize)),
       /* col */
       Math.min(9, parseInt((x - this._startX) / this.gridSize))
     ];
+    let activeBomb = this.getActiveBomb();
+
+    switch (activeBomb) {
+      case 1:
+        return [
+          [currentRow, currentCol]
+        ];
+      case 2:
+        return [
+          [currentRow + 1, currentCol - 1],
+          [currentRow + 1, currentCol + 1],
+          [currentRow, currentCol],
+          [currentRow - 1, currentCol - 1],
+          [currentRow - 1, currentCol + 1]
+        ].filter(([r, c]) => r <= 9 && c <= 9 && r >= 0 && c >= 0);
+      case 3:
+        return [
+          [currentRow + 1, currentCol - 1],
+          [currentRow + 1, currentCol],
+          [currentRow + 1, currentCol + 1],
+          [currentRow, currentCol - 1],
+          [currentRow, currentCol],
+          [currentRow, currentCol + 1],
+          [currentRow - 1, currentCol - 1],
+          [currentRow - 1, currentCol],
+          [currentRow - 1, currentCol + 1]
+        ].filter(([r, c]) => r <= 9 && c <= 9 && r >= 0 && c >= 0);
+    }
+
   },
 
   /* ============================================ */
   /* event listeners */
   /* ============================================ */
-  mouseEnterHandler(event) {
-    let {
-      x,
-      y
-    } = event.getLocation();
-    /* 記錄進入座標 */
-    [this._prevGridRow, this._prevGridCol] = this.getCurrentLocation(y, x);
-  },
 
   mouseMoveHandler(event) {
     let {
       x,
       y
     } = event.getLocation();
-    let [currentRow, currentCol] = this.getCurrentLocation(y, x);
-    /* 當前網格沒有狀態才渲染樣式 */
-    if (!this.isGridActived(currentRow, currentCol))
-      this.gridMouseEnterStyle(currentRow, currentCol);
+    let locations = this.getCurrentLocation(y, x);
 
     /* 處理前一個座標 */
-    if (this._prevGridRow !== currentRow || this._prevGridCol !== currentCol) {
+    let prev = this._prevLocations.map(([r, c]) => r + '_' + c);
+    let current = locations.map(([r, c]) => r + '_' + c);
+    let diff = locations.filter(str => prev.indexOf(str) === -1)
+    /* 有差集表示位置移動 */
+    if (diff.length > 0) {
       /* 樣式還原 */
-      this.gridMouseLeaveStyle(this._prevGridRow, this._prevGridCol);
+      this._prevLocations.forEach(([row, col]) => this.gridMouseLeaveStyle(row, col));
       /* 更新變數 */
-      this._prevGridRow = currentRow;
-      this._prevGridCol = currentCol;
+      this._prevLocations = locations;
     }
+
+    /* 當前網格沒有狀態才渲染樣式 */
+    locations.forEach(([row, col]) => {
+      if (!this.isGridActived(row, col))
+        this.gridMouseEnterStyle(row, col);
+    });
+
+    return false;
   },
 
   mouseLeaveHandler() {
-    /* 當前網格已狀態就不處理 */
-    if (this.isGridActived(this._prevGridRow, this._prevGridCol))
-      return false;
-    this.gridMouseLeaveStyle(this._prevGridRow, this._prevGridCol);
+    this._prevLocations.forEach(([row, col]) => {
+      /* 網格已有狀態就不處理 */
+      if (!this.isGridActived(row, col))
+        this.gridMouseLeaveStyle(row, col)
+    });
   },
 
   mouseDownHandler(event) {
@@ -202,44 +229,54 @@ cc.Class({
       x,
       y
     } = event.getLocation();
-    let [currentRow, currentCol] = this.getCurrentLocation(y, x);
-    /* 當前網格已狀態就不處理 */
-    if (this.isGridActived(currentRow, currentCol))
+    let locations = this.getCurrentLocation(y, x);
+    /* 當前所有網格已有狀態就不處理 */
+    if (locations.every(([row, col]) => this.isGridActived(row, col)))
       return false;
 
     /* 當前網格沒有狀態就將樣式還原 */
-    this.gridMouseLeaveStyle(currentRow, currentCol);
-
-    /* 目標節點 */
-    let targetNode = this.gridBox[currentRow][currentCol];
-    let meteorScript = targetNode.params.meteor;
-    /* 點擊的目標有船表示擊中 */
-    let isHit = meteorScript !== null;
-    /* 拿節點中的精靈 */
-    let sprite = targetNode.getComponent(cc.Sprite);
-    /* 變更渲染起始點 */
-    sprite.node.anchorX = sprite.node.anchorY = 0;
-    /* 選染模式 */
-    sprite.sizeMode = 0;
-    /* 擊中與未擊中的樣式 */
-    sprite.spriteFrame = isHit ? this.hitSpriteFrame : this.missSpriteFrame;
-    /* 顯示精靈 */
-    sprite.enabled = true;
-    /* 更新目標節點狀態 */
-    targetNode.params.isActived = true;
-    targetNode.params.status = isHit ? 'hit' : 'miss';
-    /* 擊中目標 */
-    if (isHit) {
+    locations.forEach(([row, col]) => {
+      this.gridMouseLeaveStyle(row, col);
+      /* 目標節點 */
+      let targetNode = this.gridBox[row][col];
+      let meteorScript = targetNode.params.meteor;
+      /* 點擊的目標有船表示擊中 */
+      let isHit = meteorScript !== null;
+      /* 拿節點中的精靈 */
+      let sprite = targetNode.getComponent(cc.Sprite);
+      /* 變更渲染起始點 */
+      sprite.node.anchorX = sprite.node.anchorY = 0;
+      /* 選染模式 */
+      sprite.sizeMode = 0;
+      /* 擊中與未擊中的樣式 */
+      sprite.spriteFrame = isHit ? this.hitSpriteFrame : this.missSpriteFrame;
+      /* 顯示精靈 */
+      sprite.enabled = true;
+      /* 更新目標節點狀態 */
+      targetNode.params.isActived = true;
+      targetNode.params.status = isHit ? 'hit' : 'miss';
       /* 目標是否擊沉 */
-      if (!meteorScript.location.some(([row, col]) => !this.gridBox[row][col].params.isActived))
+      if (isHit && !meteorScript.location.some(([row, col]) => !this.gridBox[row][col].params.isActived))
         meteorScript.setShootDown();
+    });
+    /* 檢查遊戲結束 */
+    if (this.checkIsOver())
+      this.changeGameStatusHandler('win');
 
-      /* 檢查遊戲結束 */
-      this.checkIsOver();
-    }
-
+    this.minusBombCountHandler();
   },
 
+  setMinusBombCountHandler(handler) {
+    this.minusBombCountHandler = handler;
+  },
+
+  setGetActiveBombHandler(handler) {
+    this.getActiveBomb = handler;
+  },
+
+  setGameStatusHandler(handler) {
+    this.changeGameStatusHandler = handler;
+  },
   // LIFE-CYCLE CALLBACKS:
 
   onLoad() {
@@ -257,8 +294,13 @@ cc.Class({
     /* 計算座標用的 private variable */
     this._startX = 70;
     this._startY = 230;
-    this._prevGridRow = null;
-    this._prevGridCol = null;
+    this._prevLocations = [];
+    this._isLegalPosition = false;
+
+    /* 初始化上層參數 */
+    this.getActiveBomb = () => -1;
+    this.minusBombCountHandler = () => false;
+    this.changeGameStatusHandler = () => null;
 
     /* 打擊狀態 */
     this.missSpriteFrame = this.tokens.clone()
@@ -272,7 +314,6 @@ cc.Class({
   },
 
   onDestroy() {
-    this.node.off(cc.Node.EventType.MOUSE_ENTER, this.mouseEnterHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
