@@ -1,7 +1,7 @@
 {
-  "title": "BattleShip",
+  "title": "MeteorSweeper",
   "packageName": "",
-  "startScene": "1550c80a-2c33-45a2-80f0-57abd2c9de3e",
+  "startScene": "ed67c3ed-649c-4b26-a3ab-bb02f5a96b61",
   "excludeScenes": [],
   "includeSDKBox": false,
   "orientation": {

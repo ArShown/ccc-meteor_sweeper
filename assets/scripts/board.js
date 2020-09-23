@@ -126,6 +126,8 @@ cc.Class({
     this.node.on(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
     this.node.on(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
     this.node.on(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
+    this.node.on('touchstart', this.touchStartHandler, this);
+    this.node.on('touchmove', this.mouseMoveHandler, this);
     this.node.on('touchend', this.mouseDownHandler, this);
   },
 
@@ -134,6 +136,8 @@ cc.Class({
     this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
+    this.node.off('touchstart', this.touchStartHandler, this);
+    this.node.off('touchmove', this.mouseMoveHandler, this);
     this.node.off('touchend', this.mouseDownHandler, this);
   },
 
@@ -187,6 +191,23 @@ cc.Class({
   /* ============================================ */
   /* event listeners */
   /* ============================================ */
+  touchStartHandler(event) {
+    let {
+      x,
+      y
+    } = event.getLocation();
+    let locations = this.getCurrentLocation(y, x);
+
+    /* 當前網格沒有狀態才渲染樣式 */
+    locations.forEach(([row, col]) => {
+      if (!this.isGridActived(row, col))
+        this.gridMouseEnterStyle(row, col);
+    });
+    /* 更新變數 */
+    this._prevLocations = locations;
+
+    return false;
+  },
 
   mouseMoveHandler(event) {
     let {
@@ -317,7 +338,9 @@ cc.Class({
     this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
+    this.node.off('touchstart', this.touchStartHandler, this);
     this.node.off('touchend', this.mouseDownHandler, this);
+    this.node.off('touchmove', this.mouseMoveHandler, this);
   },
 
   // update (dt) {},
