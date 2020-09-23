@@ -2,8 +2,9 @@ cc.Class({
   extends: cc.Component,
 
   properties: {
+    gridFrame: cc.Node,
     tokens: cc.SpriteFrame,
-    shipPreFab: cc.Prefab
+    meteorPreFab: cc.Prefab
   },
 
   /* 目標節點是否點擊過 */
@@ -40,54 +41,72 @@ cc.Class({
 
     /* 節點資訊 */
     node.params = {
-      ship: null,
+      meteor: null,
       isActived: false,
       status: null
     };
     node.x = col * this.gridSize;
     node.y = row * this.gridSize;
     node.width = node.height = this.gridSize;
-    node.zIndex = 2;
-    node.parent = this.node;
+    node.parent = this.gridFrame;
     return node;
   },
 
   /* 繪製棋盤，將網格以二維陣列存放 */
   spawnBoard() {
+    /* 格線 */
+    let graphics = this.gridFrame.addComponent(cc.Graphics);
+    graphics.lineWidth = 2;
+    graphics.strokeColor = new cc.Color(255, 255, 255, 180);
+    graphics.fillColor = new cc.Color(0, 0, 0, 0);
+    graphics.fillRect(0, 0, this.gridFrame.width, this.gridFrame.height);
+    graphics.stroke();
+
+    let maxAnchor = this.gridSize * 10;
     for (let row = 0; row < 10; row++) {
+      if (row > 0) {
+        let anchor = this.gridSize * row;
+        graphics.moveTo(0, anchor);
+        graphics.lineTo(maxAnchor, anchor);
+        graphics.moveTo(anchor, 0);
+        graphics.lineTo(anchor, maxAnchor);
+      }
+
       let colTemp = [];
       for (let col = 0; col < 10; col++) {
+        /* 網格 */
         colTemp[col] = this.spawnGrid(row, col);
       }
       this.gridBox[row] = colTemp
     }
+    graphics.stroke();
   },
 
-  spawnShip(type) {
-    let ship = cc.instantiate(this.shipPreFab);
-    let shipScript = ship.getComponent("ship");
-    shipScript.spawnShip(type);
+  spawnMeteor(type) {
+    let meteor = cc.instantiate(this.meteorPreFab);
+    let meteorScript = meteor.getComponent("meteor");
+    meteorScript.spawnMeteor(type);
 
     /* 檢查重疊 */
     let checkRepeatLocation = () => {
-      shipScript.getLocation();
-      if (shipScript.location.some(([row, col]) => this.gridBox[row][col].params.ship))
+      meteorScript.getLocation();
+      if (meteorScript.location.some(([row, col]) => this.gridBox[row][col].params.meteor))
         checkRepeatLocation();
       return;
     }
     checkRepeatLocation();
 
-    /* 船隻定位 */
-    shipScript.setPosition(
-      shipScript.origin.col * this.gridSize,
-      shipScript.origin.row * this.gridSize
+    /* 隕石定位 */
+    meteorScript.setPosition(
+      meteorScript.origin.col * this.gridSize,
+      meteorScript.origin.row * this.gridSize
     );
     /* 更新變數 */
-    shipScript.location.forEach(([row, col]) => {
-      this.gridBox[row][col].params.ship = shipScript;
+    meteorScript.location.forEach(([row, col]) => {
+      this.gridBox[row][col].params.meteor = meteorScript;
     });
-    this.node.addChild(ship);
-    this.shipBox.push(ship);
+    this.node.addChild(meteor);
+    this.meteorBox.push(meteor);
   },
 
   /* 給上層呼叫的啟動函式 */
@@ -96,27 +115,46 @@ cc.Class({
     /* 繪製棋盤 */
     this.spawnBoard();
 
-    /* 繪製戰艦 */
-    this.spawnShip('A');
-    this.spawnShip('B');
-    this.spawnShip('C');
-    this.spawnShip('S');
-    this.spawnShip('P');
+    /* 繪製隕石 */
+    this.spawnMeteor('A');
+    this.spawnMeteor('B');
+    this.spawnMeteor('C');
+    this.spawnMeteor('D');
+    this.spawnMeteor('E');
 
     /* 開始監聽 */
     this.node.on(cc.Node.EventType.MOUSE_ENTER, this.mouseEnterHandler, this);
     this.node.on(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
     this.node.on(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
     this.node.on(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
+    this.node.on('touchend', this.mouseDownHandler, this);
+  },
+
+  overHandler() {
+    this.meteorBox.forEach(meteor => meteor.active = true);
+    this.node.off(cc.Node.EventType.MOUSE_ENTER, this.mouseEnterHandler, this);
+    this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
+    this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
+    this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
+    this.node.off('touchend', this.mouseDownHandler, this);
+  },
+
+  checkIsOver() {
+    let isAllShootDown = this.meteorBox.every(meteor => {
+      let meteorScript = meteor.getComponent("meteor");
+      return meteorScript.isShootDown;
+    });
+    if (isAllShootDown)
+      this.overHandler();
   },
 
   /* 透過座標取得對應的行列（陣列索引） */
   getCurrentLocation(y, x) {
     return [
       /* row */
-      parseInt((y - this._startY) / this.gridSize),
+      Math.min(9, parseInt((y - this._startY) / this.gridSize)),
       /* col */
-      parseInt((x - this._startX) / this.gridSize)
+      Math.min(9, parseInt((x - this._startX) / this.gridSize))
     ];
   },
 
@@ -174,9 +212,9 @@ cc.Class({
 
     /* 目標節點 */
     let targetNode = this.gridBox[currentRow][currentCol];
-    let shipScript = targetNode.params.ship;
+    let meteorScript = targetNode.params.meteor;
     /* 點擊的目標有船表示擊中 */
-    let isHit = shipScript !== null;
+    let isHit = meteorScript !== null;
     /* 拿節點中的精靈 */
     let sprite = targetNode.getComponent(cc.Sprite);
     /* 變更渲染起始點 */
@@ -190,9 +228,16 @@ cc.Class({
     /* 更新目標節點狀態 */
     targetNode.params.isActived = true;
     targetNode.params.status = isHit ? 'hit' : 'miss';
-    /* 判斷船隻擊沉 */
-    if (isHit && !shipScript.location.some(([row, col]) => !this.gridBox[row][col].params.isActived))
-      shipScript.setShootDown();
+    /* 擊中目標 */
+    if (isHit) {
+      /* 目標是否擊沉 */
+      if (!meteorScript.location.some(([row, col]) => !this.gridBox[row][col].params.isActived))
+        meteorScript.setShootDown();
+
+      /* 檢查遊戲結束 */
+      this.checkIsOver();
+    }
+
   },
 
   // LIFE-CYCLE CALLBACKS:
@@ -204,11 +249,14 @@ cc.Class({
     /* 網格容器 */
     this.gridBox = new Array(10).fill(new Array(10).fill(null));
     /* 戰艦容器 */
-    this.shipBox = [];
+    this.meteorBox = [];
+    /* 調整節點順序 */
+    this.gridFrame.zIndex = 2;
+    this.meteorPreFab.zIndex = 1;
 
     /* 計算座標用的 private variable */
-    this._startX = 95.5;
-    this._startY = 205;
+    this._startX = 70;
+    this._startY = 230;
     this._prevGridRow = null;
     this._prevGridCol = null;
 
@@ -228,6 +276,7 @@ cc.Class({
     this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
+    this.node.off('touchend', this.mouseDownHandler, this);
   },
 
   // update (dt) {},
