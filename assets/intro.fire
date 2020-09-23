@@ -558,7 +558,7 @@
         1,
         1,
         1,
-        0
+        1
       ]
     },
     "_eulerAngles": {
@@ -782,7 +782,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 407.46,
+      "width": 406.68,
       "height": 180.8
     },
     "_anchorPoint": {
@@ -833,8 +833,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": " METEOR \nSHOOTER",
-    "_N$string": " METEOR \nSHOOTER",
+    "_string": " METEOR \nSWEEPER",
+    "_N$string": " METEOR \nSWEEPER",
     "_fontSize": 60,
     "_lineHeight": 80,
     "_enableWrapText": true,
@@ -876,7 +876,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 407.46,
+      "width": 406.68,
       "height": 180.8
     },
     "_anchorPoint": {
@@ -927,8 +927,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": " METEOR \nSHOOTER",
-    "_N$string": " METEOR \nSHOOTER",
+    "_string": " METEOR \nSWEEPER",
+    "_N$string": " METEOR \nSWEEPER",
     "_fontSize": 60,
     "_lineHeight": 80,
     "_enableWrapText": true,
