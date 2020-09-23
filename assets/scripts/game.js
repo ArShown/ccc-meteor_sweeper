@@ -9,16 +9,16 @@ cc.Class({
   // LIFE-CYCLE CALLBACKS:
 
   onLoad() {
-    // this.background.getComponent('background').setEnabled();
+
   },
 
   start() {
     this.board.getComponent('board').startHandler();
   },
 
-  startClick() {
-    // this.background.getComponent('background').setDisabled();
-  },
+  // backToIntro() {
+  //   cc.director.loadScene("intro");
+  // },
 
   // update (dt) {},
 });
