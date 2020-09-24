@@ -111,7 +111,6 @@ cc.Class({
 
   /* 給上層呼叫的啟動函式 */
   startHandler() {
-    this.enabled = true;
     /* 繪製棋盤 */
     this.spawnBoard();
 
@@ -123,22 +122,28 @@ cc.Class({
     this.spawnMeteor('E');
 
     /* 開始監聽 */
-    this.node.on(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
-    this.node.on(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
-    this.node.on(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
-    this.node.on(cc.Node.EventType.TOUCH_START, this.touchStartHandler, this);
-    this.node.on(cc.Node.EventType.TOUCH_MOVE, this.touchMoveHandler, this);
-    this.node.on(cc.Node.EventType.TOUCH_END, this.mouseDownHandler, this);
+    if (cc.sys.isMobile) {
+      this.node.on(cc.Node.EventType.TOUCH_START, this.touchStartHandler, this);
+      this.node.on(cc.Node.EventType.TOUCH_MOVE, this.touchMoveHandler, this);
+      this.node.on(cc.Node.EventType.TOUCH_END, this.touchEndHandler, this);
+    } else {
+      this.node.on(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
+      this.node.on(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
+      this.node.on(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
+    }
   },
 
   overHandler() {
     this.meteorBox.forEach(meteor => meteor.active = true);
-    this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
-    this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
-    this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
-    this.node.off(cc.Node.EventType.TOUCH_START, this.touchStartHandler, this);
-    this.node.off(cc.Node.EventType.TOUCH_MOVE, this.touchMoveHandler, this);
-    this.node.off(cc.Node.EventType.TOUCH_END, this.mouseDownHandler, this);
+    if (cc.sys.isMobile) {
+      this.node.off(cc.Node.EventType.TOUCH_START, this.touchStartHandler, this);
+      this.node.off(cc.Node.EventType.TOUCH_MOVE, this.touchMoveHandler, this);
+      this.node.off(cc.Node.EventType.TOUCH_END, this.touchEndHandler, this);
+    } else {
+      this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
+      this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
+      this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
+    }
   },
 
   checkIsOver() {
@@ -205,7 +210,6 @@ cc.Class({
     });
     /* 更新變數 */
     this._prevLocations = locations;
-
     return false;
   },
 
@@ -224,6 +228,12 @@ cc.Class({
     }
 
     this.mouseMoveHandler(event);
+    return false;
+  },
+
+  touchEndHandler(event) {
+    this.mouseDownHandler(event);
+    return false;
   },
 
   mouseMoveHandler(event) {
@@ -302,6 +312,7 @@ cc.Class({
       this.changeGameStatusHandler('win');
 
     this.minusBombCountHandler();
+    return false;
   },
 
   setMinusBombCountHandler(handler) {
@@ -318,7 +329,6 @@ cc.Class({
   // LIFE-CYCLE CALLBACKS:
 
   onLoad() {
-    this.enabled = false;
     this.gridSize = 50;
     this.node.width = this.node.height = 500;
     /* 網格容器 */
@@ -352,12 +362,15 @@ cc.Class({
   },
 
   onDestroy() {
-    this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
-    this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
-    this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
-    this.node.off(cc.Node.EventType.TOUCH_START, this.touchStartHandler, this);
-    this.node.off(cc.Node.EventType.TOUCH_END, this.mouseDownHandler, this);
-    this.node.off(cc.Node.EventType.TOUCH_MOVE, this.touchMoveHandler, this);
+    if (cc.sys.isMobile) {
+      this.node.off(cc.Node.EventType.TOUCH_START, this.touchStartHandler, this);
+      this.node.off(cc.Node.EventType.TOUCH_MOVE, this.touchMoveHandler, this);
+      this.node.off(cc.Node.EventType.TOUCH_END, this.touchEndHandler, this);
+    } else {
+      this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
+      this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
+      this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
+    }
   },
 
   // update (dt) {},

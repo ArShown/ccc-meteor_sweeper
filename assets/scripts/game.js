@@ -80,7 +80,7 @@ cc.Class({
     this.upgradeBombCount();
     if (this.bombCount[this.bombActive] === 0) {
       let nextIdx = this.bombCount.findIndex(n => n > 0);
-      if (nextIdx > 0)
+      if (nextIdx >= 0)
         this.switchActive(null, nextIdx);
       else
         this.gameOver('lose');
@@ -105,9 +105,11 @@ cc.Class({
     this.gameStatus = status;
     this.boardScript.overHandler();
 
-    let ans = confirm('game over. you ' + status + '! replay?');
-    if (ans)
-      this.backToIntro();
+    let dialog = cc.instantiate(this.dialogPrefab);
+    this.node.addChild(dialog);
+    let dialogScript = dialog.getComponent('dialog');
+    dialogScript.setContent('game over. you ' + status + '! replay?');
+    dialogScript.setCallback(() => cc.director.loadScene("game"));
   },
 
   // LIFE-CYCLE CALLBACKS:
@@ -115,7 +117,7 @@ cc.Class({
   onLoad() {
     this.bombActive = 0;
     this.bombBox = [, this.bomb1, this.bomb2, this.bomb3];
-    this.bombCount = [, 30, 2, 1];
+    this.bombCount = [, 26, 3, 1];
     this.gameStatus = 'playing';
     this.boardScript = this.board.getComponent('board');
     this.upgradeBombCount();
@@ -135,6 +137,14 @@ cc.Class({
     let dialogScript = dialog.getComponent('dialog');
     dialogScript.setContent('You really want to go ahead?');
     dialogScript.setCallback(() => cc.director.loadScene("intro"));
+  },
+
+  replay() {
+    let dialog = cc.instantiate(this.dialogPrefab);
+    this.node.addChild(dialog);
+    let dialogScript = dialog.getComponent('dialog');
+    dialogScript.setContent('Replay?');
+    dialogScript.setCallback(() => cc.director.loadScene("game"));
   },
 
   // update (dt) {},
