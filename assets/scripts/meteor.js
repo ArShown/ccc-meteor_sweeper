@@ -80,31 +80,37 @@ cc.Class({
           }
         }
       case 'D':
-        {
-          return {
-            w: 50,
-            h: 50,
-            minRow: 0,
-            minCol: 0,
-            maxRow: 9,
-            maxCol: 9,
-            body: (row, col) => [
-              [row, col]
-            ]
-          }
-        }
       case 'E':
         {
-          return {
-            w: 50,
-            h: 50,
-            minRow: 0,
-            minCol: 0,
-            maxRow: 9,
-            maxCol: 9,
-            body: (row, col) => [
-              [row, col]
-            ]
+          switch (direction) {
+            case 'U':
+            case 'D':
+              return {
+                w: 100,
+                h: 50,
+                minRow: 0,
+                minCol: 0,
+                maxRow: 9,
+                maxCol: 8,
+                body: (row, col) => [
+                  [row, col],
+                  [row, col + 1]
+                ]
+              }
+            case 'L':
+            case 'R':
+              return {
+                w: 50,
+                h: 100,
+                minRow: 0,
+                minCol: 0,
+                maxRow: 8,
+                maxCol: 9,
+                body: (row, col) => [
+                  [row + 1, col],
+                  [row, col]
+                ]
+              }
           }
         }
     }

@@ -126,9 +126,9 @@ cc.Class({
     this.node.on(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
     this.node.on(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
     this.node.on(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
-    this.node.on('touchstart', this.touchStartHandler, this);
-    this.node.on('touchmove', this.mouseMoveHandler, this);
-    this.node.on('touchend', this.mouseDownHandler, this);
+    this.node.on(cc.Node.EventType.TOUCH_START, this.touchStartHandler, this);
+    this.node.on(cc.Node.EventType.TOUCH_MOVE, this.touchMoveHandler, this);
+    this.node.on(cc.Node.EventType.TOUCH_END, this.mouseDownHandler, this);
   },
 
   overHandler() {
@@ -136,9 +136,9 @@ cc.Class({
     this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
-    this.node.off('touchstart', this.touchStartHandler, this);
-    this.node.off('touchmove', this.mouseMoveHandler, this);
-    this.node.off('touchend', this.mouseDownHandler, this);
+    this.node.off(cc.Node.EventType.TOUCH_START, this.touchStartHandler, this);
+    this.node.off(cc.Node.EventType.TOUCH_MOVE, this.touchMoveHandler, this);
+    this.node.off(cc.Node.EventType.TOUCH_END, this.mouseDownHandler, this);
   },
 
   checkIsOver() {
@@ -207,6 +207,23 @@ cc.Class({
     this._prevLocations = locations;
 
     return false;
+  },
+
+  touchMoveHandler(event) {
+    let {
+      x,
+      y
+    } = event.getLocation();
+
+    let posY = y - this._startY,
+      posX = x - this._startX;
+    /* 超出範圍視為leave */
+    if ((posY > this.node.height) || posY < 0 || (posX > this.node.width) || posX < 0) {
+      this.mouseLeaveHandler(event);
+      return false;
+    }
+
+    this.mouseMoveHandler(event);
   },
 
   mouseMoveHandler(event) {
@@ -338,9 +355,9 @@ cc.Class({
     this.node.off(cc.Node.EventType.MOUSE_MOVE, this.mouseMoveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_LEAVE, this.mouseLeaveHandler, this);
     this.node.off(cc.Node.EventType.MOUSE_DOWN, this.mouseDownHandler, this);
-    this.node.off('touchstart', this.touchStartHandler, this);
-    this.node.off('touchend', this.mouseDownHandler, this);
-    this.node.off('touchmove', this.mouseMoveHandler, this);
+    this.node.off(cc.Node.EventType.TOUCH_START, this.touchStartHandler, this);
+    this.node.off(cc.Node.EventType.TOUCH_END, this.mouseDownHandler, this);
+    this.node.off(cc.Node.EventType.TOUCH_MOVE, this.touchMoveHandler, this);
   },
 
   // update (dt) {},

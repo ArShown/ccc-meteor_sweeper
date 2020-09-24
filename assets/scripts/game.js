@@ -6,6 +6,7 @@ cc.Class({
     bomb1: cc.Node,
     bomb2: cc.Node,
     bomb3: cc.Node,
+    dialogPrefab: cc.Prefab
   },
 
   switchActive(e, number) {
@@ -102,7 +103,7 @@ cc.Class({
       return false;
 
     this.gameStatus = status;
-    this.board.getComponent('board').overHandler();
+    this.boardScript.overHandler();
 
     let ans = confirm('game over. you ' + status + '! replay?');
     if (ans)
@@ -114,21 +115,26 @@ cc.Class({
   onLoad() {
     this.bombActive = 0;
     this.bombBox = [, this.bomb1, this.bomb2, this.bomb3];
-    this.bombCount = [, 28, 1, 1];
+    this.bombCount = [, 30, 2, 1];
     this.gameStatus = 'playing';
+    this.boardScript = this.board.getComponent('board');
     this.upgradeBombCount();
   },
 
   start() {
     this.switchActive(null, 1);
-    this.board.getComponent('board').setGetActiveBombHandler(() => this.bombActive);
-    this.board.getComponent('board').setGameStatusHandler(this.gameOver.bind(this));
-    this.board.getComponent('board').setMinusBombCountHandler(this.minusBombCount.bind(this));
-    this.board.getComponent('board').startHandler();
+    this.boardScript.setGetActiveBombHandler(() => this.bombActive);
+    this.boardScript.setGameStatusHandler(this.gameOver.bind(this));
+    this.boardScript.setMinusBombCountHandler(this.minusBombCount.bind(this));
+    this.boardScript.startHandler();
   },
 
   backToIntro() {
-    cc.director.loadScene("intro");
+    let dialog = cc.instantiate(this.dialogPrefab);
+    this.node.addChild(dialog);
+    let dialogScript = dialog.getComponent('dialog');
+    dialogScript.setContent('You really want to go ahead?');
+    dialogScript.setCallback(() => cc.director.loadScene("intro"));
   },
 
   // update (dt) {},
