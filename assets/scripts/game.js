@@ -6,7 +6,19 @@ cc.Class({
     bomb1: cc.Node,
     bomb2: cc.Node,
     bomb3: cc.Node,
-    dialogPrefab: cc.Prefab
+    dialogPrefab: cc.Prefab,
+    bgClip: {
+      default: null,
+      type: cc.AudioClip
+    },
+    loseClip: {
+      default: null,
+      type: cc.AudioClip
+    },
+    winClip: {
+      default: null,
+      type: cc.AudioClip
+    }
   },
 
   switchActive(e, number) {
@@ -107,14 +119,21 @@ cc.Class({
 
     let dialog = cc.instantiate(this.dialogPrefab);
     this.node.addChild(dialog);
+
+    if (status === 'lose')
+      cc.audioEngine.play(this.loseClip, false, 1);
+    else
+      cc.audioEngine.play(this.winClip, false, 1);
+
     let dialogScript = dialog.getComponent('dialog');
-    dialogScript.setContent('game over. you ' + status + '! replay?');
+    dialogScript.setContent('you ' + status + '! replay?');
     dialogScript.setCallback(() => cc.director.loadScene("game"));
   },
 
   // LIFE-CYCLE CALLBACKS:
 
   onLoad() {
+    this.clipId = cc.audioEngine.play(this.bgClip, true, 0.5);
     this.bombActive = 0;
     this.bombBox = [, this.bomb1, this.bomb2, this.bomb3];
     this.bombCount = [, 26, 3, 1];
@@ -147,5 +166,8 @@ cc.Class({
     dialogScript.setCallback(() => cc.director.loadScene("game"));
   },
 
+  onDestroy() {
+    cc.audioEngine.stop(this.clipId);
+  }
   // update (dt) {},
 });

@@ -4,7 +4,15 @@ cc.Class({
   properties: {
     gridFrame: cc.Node,
     tokens: cc.SpriteFrame,
-    meteorPreFab: cc.Prefab
+    meteorPreFab: cc.Prefab,
+    hoverClip: {
+      default: null,
+      type: cc.AudioClip
+    },
+    clickClip: {
+      default: null,
+      type: cc.AudioClip
+    },
   },
 
   /* 目標節點是否點擊過 */
@@ -246,20 +254,24 @@ cc.Class({
     /* 處理前一個座標 */
     let prev = this._prevLocations.map(([r, c]) => r + '_' + c);
     let current = locations.map(([r, c]) => r + '_' + c);
-    let diff = locations.filter(str => prev.indexOf(str) === -1)
+    let diff = current.filter(str => prev.indexOf(str) === -1);
     /* 有差集表示位置移動 */
     if (diff.length > 0) {
       /* 樣式還原 */
       this._prevLocations.forEach(([row, col]) => this.gridMouseLeaveStyle(row, col));
       /* 更新變數 */
       this._prevLocations = locations;
-    }
 
-    /* 當前網格沒有狀態才渲染樣式 */
-    locations.forEach(([row, col]) => {
-      if (!this.isGridActived(row, col))
-        this.gridMouseEnterStyle(row, col);
-    });
+      /* 當前網格沒有狀態才渲染樣式 */
+      let isNotActivedLocations = locations.filter(([row, col]) => !this.isGridActived(row, col));
+      /* 需要渲染網格 */
+      if (isNotActivedLocations.length > 0) {
+        /* 渲染網格 */
+        isNotActivedLocations.forEach(([row, col]) => this.gridMouseEnterStyle(row, col));
+        /* 播放音效 */
+        cc.audioEngine.play(this.hoverClip, false, 1);
+      }
+    }
 
     return false;
   },
@@ -307,10 +319,14 @@ cc.Class({
       if (isHit && !meteorScript.location.some(([row, col]) => !this.gridBox[row][col].params.isActived))
         meteorScript.setShootDown();
     });
+    /* 播放音效 */
+    cc.audioEngine.play(this.clickClip, false, 0.3);
+
     /* 檢查遊戲結束 */
     if (this.checkIsOver())
       this.changeGameStatusHandler('win');
 
+    /* 更新炸彈數量 */
     this.minusBombCountHandler();
     return false;
   },

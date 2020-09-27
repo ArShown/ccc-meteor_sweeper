@@ -595,7 +595,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.Button",
+    "__type__": "e696c1SA4VOE6ASgdl4pXxT",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -666,6 +666,9 @@
     "hoverSprite": null,
     "_N$disabledSprite": null,
     "_N$target": null,
+    "clip": {
+      "__uuid__": "f7b9633c-0c4b-4368-acea-083481de5185"
+    },
     "_id": ""
   },
   {
@@ -900,7 +903,7 @@
     "_id": ""
   },
   {
-    "__type__": "cc.Button",
+    "__type__": "e696c1SA4VOE6ASgdl4pXxT",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -971,6 +974,9 @@
     "hoverSprite": null,
     "_N$disabledSprite": null,
     "_N$target": null,
+    "clip": {
+      "__uuid__": "f7b9633c-0c4b-4368-acea-083481de5185"
+    },
     "_id": ""
   },
   {
