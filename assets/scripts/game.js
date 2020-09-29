@@ -7,6 +7,7 @@ cc.Class({
     bomb2: cc.Node,
     bomb3: cc.Node,
     dialogPrefab: cc.Prefab,
+    ruleWindow: cc.Node,
     bgClip: {
       default: null,
       type: cc.AudioClip
@@ -130,6 +131,31 @@ cc.Class({
     dialogScript.setCallback(() => cc.director.loadScene("game"));
   },
 
+  backToIntro() {
+    let dialog = cc.instantiate(this.dialogPrefab);
+    this.node.addChild(dialog);
+    let dialogScript = dialog.getComponent('dialog');
+    dialogScript.setContent('You really want to go ahead?');
+    dialogScript.setCallback(() => cc.director.loadScene("intro"));
+  },
+
+  replay() {
+    let dialog = cc.instantiate(this.dialogPrefab);
+    this.node.addChild(dialog);
+    let dialogScript = dialog.getComponent('dialog');
+    dialogScript.setContent('Replay?');
+    dialogScript.setCallback(() => cc.director.loadScene("game"));
+  },
+
+  ruleDisplay() {
+    this.ruleWindow.active = true;
+    this.ruleWindow.getComponent(cc.Animation).play('slice-in');
+  },
+
+  ruleHidden() {
+    this.ruleWindow.getComponent(cc.Animation).play('slice-out');
+  },
+
   // LIFE-CYCLE CALLBACKS:
 
   onLoad() {
@@ -148,22 +174,6 @@ cc.Class({
     this.boardScript.setGameStatusHandler(this.gameOver.bind(this));
     this.boardScript.setMinusBombCountHandler(this.minusBombCount.bind(this));
     this.boardScript.startHandler();
-  },
-
-  backToIntro() {
-    let dialog = cc.instantiate(this.dialogPrefab);
-    this.node.addChild(dialog);
-    let dialogScript = dialog.getComponent('dialog');
-    dialogScript.setContent('You really want to go ahead?');
-    dialogScript.setCallback(() => cc.director.loadScene("intro"));
-  },
-
-  replay() {
-    let dialog = cc.instantiate(this.dialogPrefab);
-    this.node.addChild(dialog);
-    let dialogScript = dialog.getComponent('dialog');
-    dialogScript.setContent('Replay?');
-    dialogScript.setCallback(() => cc.director.loadScene("game"));
   },
 
   onDestroy() {
