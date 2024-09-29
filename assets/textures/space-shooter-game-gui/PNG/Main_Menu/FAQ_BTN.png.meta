@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "94f266ed-fb65-450f-a533-3fd4b90a3519",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 210,
+  "height": 210,
   "platformSettings": {},
   "subMetas": {
     "FAQ_BTN": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "7a7f6383-710f-4e81-8932-74200ed78daf",
+      "importer": "sprite-frame",
       "rawTextureUuid": "94f266ed-fb65-450f-a533-3fd4b90a3519",
       "trimType": "auto",
       "trimThreshold": 1,

@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "f6f1cfa2-5361-47dd-8f9d-5b08222a45ea",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 751,
+  "height": 570,
   "platformSettings": {},
   "subMetas": {
     "Cloud_01": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "ce94d8af-9b7b-48e9-8e2a-bd4fc4a4d232",
+      "importer": "sprite-frame",
       "rawTextureUuid": "f6f1cfa2-5361-47dd-8f9d-5b08222a45ea",
       "trimType": "auto",
       "trimThreshold": 1,

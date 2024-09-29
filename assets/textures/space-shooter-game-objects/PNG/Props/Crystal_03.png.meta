@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "954021f7-7ee4-433c-8846-3c745ba4d6c1",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 300,
+  "height": 300,
   "platformSettings": {},
   "subMetas": {
     "Crystal_03": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "b424d84d-47dd-4bc9-a74e-a4c21daed765",
+      "importer": "sprite-frame",
       "rawTextureUuid": "954021f7-7ee4-433c-8846-3c745ba4d6c1",
       "trimType": "auto",
       "trimThreshold": 1,

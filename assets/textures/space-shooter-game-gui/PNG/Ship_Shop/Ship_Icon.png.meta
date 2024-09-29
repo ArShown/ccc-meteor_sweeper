@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "f27afe1c-a75a-4e59-8193-2e6c66b7ab53",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 340,
+  "height": 258,
   "platformSettings": {},
   "subMetas": {
     "Ship_Icon": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "7e2a662e-1a75-4961-b109-8412f6cde744",
+      "importer": "sprite-frame",
       "rawTextureUuid": "f27afe1c-a75a-4e59-8193-2e6c66b7ab53",
       "trimType": "auto",
       "trimThreshold": 1,

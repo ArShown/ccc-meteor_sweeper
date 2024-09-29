@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "16284c87-64cd-4464-996e-07b3ff82f75d",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 210,
+  "height": 210,
   "platformSettings": {},
   "subMetas": {
     "More_Games_BTN": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "a7144dbd-e80b-49da-a48d-a9ad2f954fe3",
+      "importer": "sprite-frame",
       "rawTextureUuid": "16284c87-64cd-4464-996e-07b3ff82f75d",
       "trimType": "auto",
       "trimThreshold": 1,

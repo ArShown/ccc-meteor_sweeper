@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "2122377b-8d3d-49f9-95f3-e99f72ecb5e6",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 890,
+  "height": 20,
   "platformSettings": {},
   "subMetas": {
     "Boss_HP_Bar_2": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "c9e984ca-9f9b-42db-8724-a68f61daec6a",
+      "importer": "sprite-frame",
       "rawTextureUuid": "2122377b-8d3d-49f9-95f3-e99f72ecb5e6",
       "trimType": "auto",
       "trimThreshold": 1,

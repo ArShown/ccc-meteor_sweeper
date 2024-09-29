@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "63bf67e4-d2c6-438f-864a-30b33bd7f747",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 151,
+  "height": 301,
   "platformSettings": {},
   "subMetas": {
     "Bomb_1_Idle_009": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "eaf26915-e66e-474c-9c67-084c1224380f",
+      "importer": "sprite-frame",
       "rawTextureUuid": "63bf67e4-d2c6-438f-864a-30b33bd7f747",
       "trimType": "auto",
       "trimThreshold": 1,

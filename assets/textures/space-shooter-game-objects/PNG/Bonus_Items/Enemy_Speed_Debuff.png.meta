@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "02931757-aad4-4de8-9488-ed65ffd7afab",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 300,
+  "height": 300,
   "platformSettings": {},
   "subMetas": {
     "Enemy_Speed_Debuff": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "bfe6d618-39a8-447d-a443-4052eaf29fb3",
+      "importer": "sprite-frame",
       "rawTextureUuid": "02931757-aad4-4de8-9488-ed65ffd7afab",
       "trimType": "auto",
       "trimThreshold": 1,

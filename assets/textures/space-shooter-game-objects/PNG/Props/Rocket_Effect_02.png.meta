@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "40926d8e-e484-45fe-9c69-8b314a1c6cf9",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 126,
+  "height": 126,
   "platformSettings": {},
   "subMetas": {
     "Rocket_Effect_02": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "af765f6a-353e-4fbb-8cc9-7ccf74442c7c",
+      "importer": "sprite-frame",
       "rawTextureUuid": "40926d8e-e484-45fe-9c69-8b314a1c6cf9",
       "trimType": "auto",
       "trimThreshold": 1,

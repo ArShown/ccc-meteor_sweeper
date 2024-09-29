@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "73990f29-757a-4b6f-8611-3e2fc8c6c5b8",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 34,
+  "height": 54,
   "platformSettings": {},
   "subMetas": {
     "Cristal_Icon": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "9aa3a9ad-d637-49a7-bb1f-48e9f9d867da",
+      "importer": "sprite-frame",
       "rawTextureUuid": "73990f29-757a-4b6f-8611-3e2fc8c6c5b8",
       "trimType": "auto",
       "trimThreshold": 1,

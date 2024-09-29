@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "95f11ac2-5d2f-4b12-b4bc-2392e2d227c5",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 115,
+  "height": 109,
   "platformSettings": {},
   "subMetas": {
     "Shop_Cristal_Icon_02": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "4112002f-4588-42cb-84f4-0b090e9cbe42",
+      "importer": "sprite-frame",
       "rawTextureUuid": "95f11ac2-5d2f-4b12-b4bc-2392e2d227c5",
       "trimType": "auto",
       "trimThreshold": 1,

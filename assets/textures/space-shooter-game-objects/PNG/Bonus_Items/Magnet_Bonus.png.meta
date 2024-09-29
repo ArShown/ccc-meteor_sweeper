@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "f4e9edf4-cbca-4674-91c3-08cb230a31d5",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 300,
+  "height": 300,
   "platformSettings": {},
   "subMetas": {
     "Magnet_Bonus": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "999f023d-7e5e-48c1-b337-5fd1fe936a98",
+      "importer": "sprite-frame",
       "rawTextureUuid": "f4e9edf4-cbca-4674-91c3-08cb230a31d5",
       "trimType": "auto",
       "trimThreshold": 1,

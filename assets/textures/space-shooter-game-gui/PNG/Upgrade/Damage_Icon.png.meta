@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "046b5969-651f-4199-8768-4bdad4a3e97d",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 115,
+  "height": 114,
   "platformSettings": {},
   "subMetas": {
     "Damage_Icon": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "c92fa183-791d-4185-ab77-ce5774526d71",
+      "importer": "sprite-frame",
       "rawTextureUuid": "046b5969-651f-4199-8768-4bdad4a3e97d",
       "trimType": "auto",
       "trimThreshold": 1,

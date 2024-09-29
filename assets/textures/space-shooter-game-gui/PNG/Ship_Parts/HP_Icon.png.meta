@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "ce78d97e-d999-4295-b964-ea620db72296",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 65,
+  "height": 55,
   "platformSettings": {},
   "subMetas": {
     "HP_Icon": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "4ada3a42-1570-4279-8d73-8ba8ec646dff",
+      "importer": "sprite-frame",
       "rawTextureUuid": "ce78d97e-d999-4295-b964-ea620db72296",
       "trimType": "auto",
       "trimThreshold": 1,

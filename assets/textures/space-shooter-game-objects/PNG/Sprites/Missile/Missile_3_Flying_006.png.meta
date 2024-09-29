@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "b554cda3-1a94-4e1f-a6bc-dfa9f6f2ec1e",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 146,
+  "height": 517,
   "platformSettings": {},
   "subMetas": {
     "Missile_3_Flying_006": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "d8db51bf-1a45-40cf-93ce-f575293d22ae",
+      "importer": "sprite-frame",
       "rawTextureUuid": "b554cda3-1a94-4e1f-a6bc-dfa9f6f2ec1e",
       "trimType": "auto",
       "trimThreshold": 1,

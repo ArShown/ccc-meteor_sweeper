@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "4f9b3b63-99d7-47d7-a672-80aa831ccaf8",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 1040,
+  "height": 30,
   "platformSettings": {},
   "subMetas": {
     "Boss_HP_Table": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "a82aefd4-cb83-4387-a337-45854e3e64fc",
+      "importer": "sprite-frame",
       "rawTextureUuid": "4f9b3b63-99d7-47d7-a672-80aa831ccaf8",
       "trimType": "auto",
       "trimThreshold": 1,

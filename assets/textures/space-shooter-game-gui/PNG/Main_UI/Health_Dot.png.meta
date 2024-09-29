@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "da3486ec-aebd-451c-871c-48c0245a17aa",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 30,
+  "height": 58,
   "platformSettings": {},
   "subMetas": {
     "Health_Dot": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "d0a1012d-09f9-44a3-abfc-ada87bc20467",
+      "importer": "sprite-frame",
       "rawTextureUuid": "da3486ec-aebd-451c-871c-48c0245a17aa",
       "trimType": "auto",
       "trimThreshold": 1,

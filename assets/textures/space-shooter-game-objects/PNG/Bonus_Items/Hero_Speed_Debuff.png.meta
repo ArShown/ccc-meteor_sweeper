@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "8c648661-e59d-4962-8d6d-3fb879747103",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 300,
+  "height": 300,
   "platformSettings": {},
   "subMetas": {
     "Hero_Speed_Debuff": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "dff42a1e-da1d-432c-ad1d-4642a435773e",
+      "importer": "sprite-frame",
       "rawTextureUuid": "8c648661-e59d-4962-8d6d-3fb879747103",
       "trimType": "auto",
       "trimThreshold": 1,

@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "980146fe-9281-4933-a0d4-3e4d96c90b72",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 300,
+  "height": 137,
   "platformSettings": {},
   "subMetas": {
     "Meteor_04": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "a74b8aad-5860-4468-b8db-7a6dea68ce78",
+      "importer": "sprite-frame",
       "rawTextureUuid": "980146fe-9281-4933-a0d4-3e4d96c90b72",
       "trimType": "auto",
       "trimThreshold": 1,

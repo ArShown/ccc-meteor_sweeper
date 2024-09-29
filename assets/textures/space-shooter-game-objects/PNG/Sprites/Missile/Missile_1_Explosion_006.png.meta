@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "b4ce582a-6eec-4de4-8c77-a1295aecbbfb",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 810,
+  "height": 810,
   "platformSettings": {},
   "subMetas": {
     "Missile_1_Explosion_006": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "7a280cd5-497d-40fb-9f2c-09989d2b1ae9",
+      "importer": "sprite-frame",
       "rawTextureUuid": "b4ce582a-6eec-4de4-8c77-a1295aecbbfb",
       "trimType": "auto",
       "trimThreshold": 1,

@@ -1,5 +1,5 @@
 {
-  "start-scene": "current",
+  "start-scene": "ed67c3ed-649c-4b26-a3ab-bb02f5a96b61",
   "group-list": [
     "default"
   ],
@@ -8,7 +8,12 @@
       true
     ]
   ],
-  "excluded-modules": [],
+  "excluded-modules": [
+    "3D Physics/cannon.js",
+    "3D Physics/Builtin",
+    "3D Particle",
+    "SafeArea"
+  ],
   "last-module-event-record-time": 1601098464207,
   "design-resolution-width": 960,
   "design-resolution-height": 640,
@@ -31,5 +36,8 @@
     "audience": {
       "enable": false
     }
-  }
+  },
+  "migrate-history": [
+    "cloud-function"
+  ]
 }

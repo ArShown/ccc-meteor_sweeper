@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "6a570183-d49c-4940-85f2-3ab7f704ae71",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 810,
+  "height": 810,
   "platformSettings": {},
   "subMetas": {
     "Bomb_1_Explosion_002": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "9c261261-460a-41bd-96d4-2aa7e1cc0a01",
+      "importer": "sprite-frame",
       "rawTextureUuid": "6a570183-d49c-4940-85f2-3ab7f704ae71",
       "trimType": "auto",
       "trimThreshold": 1,

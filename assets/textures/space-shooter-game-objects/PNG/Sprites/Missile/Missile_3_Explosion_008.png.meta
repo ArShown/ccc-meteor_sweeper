@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "c3a33ef2-1707-4f83-8beb-9626ab7e8ba8",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 810,
+  "height": 810,
   "platformSettings": {},
   "subMetas": {
     "Missile_3_Explosion_008": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "829f8771-e9a6-4fab-b36b-d18f3b014cd6",
+      "importer": "sprite-frame",
       "rawTextureUuid": "c3a33ef2-1707-4f83-8beb-9626ab7e8ba8",
       "trimType": "auto",
       "trimThreshold": 1,

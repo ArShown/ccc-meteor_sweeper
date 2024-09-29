@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "623cefe9-e550-4283-80d8-5ed8b74b5fe8",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 138,
+  "height": 517,
   "platformSettings": {},
   "subMetas": {
     "Missile_2_Flying_003": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "4d015dfe-81e1-40b3-b131-8e39da976b8f",
+      "importer": "sprite-frame",
       "rawTextureUuid": "623cefe9-e550-4283-80d8-5ed8b74b5fe8",
       "trimType": "auto",
       "trimThreshold": 1,

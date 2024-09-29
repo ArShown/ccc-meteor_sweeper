@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "92cb5d1c-095d-4f4a-919d-3746e678d0c6",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 261,
+  "height": 101,
   "platformSettings": {},
   "subMetas": {
     "Prise_BTN_Table": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "ced5979a-5bd1-4f40-a20e-2bc22a90f3a6",
+      "importer": "sprite-frame",
       "rawTextureUuid": "92cb5d1c-095d-4f4a-919d-3746e678d0c6",
       "trimType": "auto",
       "trimThreshold": 1,

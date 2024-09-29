@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "9dc83f43-74de-4541-af1f-ec7aeb8f8aef",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 30,
+  "height": 58,
   "platformSettings": {},
   "subMetas": {
     "Armor_Bar_Dot": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "3f8aaf28-a43a-4836-a540-a3c8c9a571b8",
+      "importer": "sprite-frame",
       "rawTextureUuid": "9dc83f43-74de-4541-af1f-ec7aeb8f8aef",
       "trimType": "auto",
       "trimThreshold": 1,

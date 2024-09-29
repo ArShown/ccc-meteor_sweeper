@@ -1,17 +1,21 @@
 {
-  "ver": "2.3.3",
+  "ver": "2.3.7",
   "uuid": "a5f73123-034c-4c2f-88bd-4a18722d6b59",
+  "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
   "genMipmaps": false,
   "packable": true,
+  "width": 210,
+  "height": 210,
   "platformSettings": {},
   "subMetas": {
     "Music_BTN": {
-      "ver": "1.0.4",
+      "ver": "1.0.6",
       "uuid": "37716f75-5d70-4cf3-9fe8-2357e70b7e92",
+      "importer": "sprite-frame",
       "rawTextureUuid": "a5f73123-034c-4c2f-88bd-4a18722d6b59",
       "trimType": "auto",
       "trimThreshold": 1,
