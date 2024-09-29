@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Sound_BTN",
+    "texture": "0d53699e-918d-4ad0-8207-c37030f64e99",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      210,
+      210
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      210,
+      210
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

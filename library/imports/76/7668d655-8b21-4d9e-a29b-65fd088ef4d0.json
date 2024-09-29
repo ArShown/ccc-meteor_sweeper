@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Price_BTN_Table",
+    "texture": "990a1a25-7675-4b24-bc08-5d4ed9c77049",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      210,
+      101
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      211,
+      101
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

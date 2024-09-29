@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Speed_Icon",
+    "texture": "63888c30-5bdf-4df7-9cb1-5250189f94a2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      53,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

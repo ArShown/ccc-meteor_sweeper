@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Damage_Icon",
+    "texture": "046b5969-651f-4199-8768-4bdad4a3e97d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      115,
+      114
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      115,
+      114
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

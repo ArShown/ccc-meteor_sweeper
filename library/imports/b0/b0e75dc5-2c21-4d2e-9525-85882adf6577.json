@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Missile_3_Flying_004",
+    "texture": "4b10e0fe-87c9-44a0-9108-761a84c81f5c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      146,
+      501
+    ],
+    "offset": [
+      0,
+      8
+    ],
+    "originalSize": [
+      146,
+      517
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "HP_Icon",
+    "texture": "ce78d97e-d999-4295-b964-ea620db72296",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      65,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      65,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

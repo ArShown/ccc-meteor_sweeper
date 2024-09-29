@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ship_Main_Icon",
+    "texture": "7dbb1554-c695-452a-a787-1d42c9d6e54a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      339,
+      258
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      339,
+      258
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

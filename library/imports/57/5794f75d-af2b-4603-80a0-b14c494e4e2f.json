@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Boss_Name_Table",
+    "texture": "ddfce4a4-3c48-4527-8c0e-43c3baefd0f9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      300,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,3047 @@
+{
+  "9836134e-b892-4283-b6b2-78b5acf3ed45": {
+    "asset": 1637579759000,
+    "meta": 1727589039361,
+    "relativePath": "effects"
+  },
+  "f8e6b000-5643-4b86-9080-aa680ce1f599": {
+    "asset": 1637579759000,
+    "meta": 1727589039362,
+    "relativePath": "image"
+  },
+  "5c3eedba-6c41-4c0c-9ba7-d91f813cbd1c": {
+    "asset": 1637579759000,
+    "meta": 1727589039362,
+    "relativePath": "materials"
+  },
+  "fc09f9bd-2cce-4605-b630-8145ef809ed6": {
+    "asset": 1637579759000,
+    "meta": 1727589039362,
+    "relativePath": "misc"
+  },
+  "db019bf7-f71c-4111-98cf-918ea180cb48": {
+    "asset": 1637579759000,
+    "meta": 1727589039362,
+    "relativePath": "model"
+  },
+  "f6e6dd15-71d1-4ffe-ace7-24fd39942c05": {
+    "asset": 1637579759000,
+    "meta": 1727589039362,
+    "relativePath": "obsolete"
+  },
+  "f743d2b6-b7ea-4c14-a55b-547ed4d0a045": {
+    "asset": 1637579759000,
+    "meta": 1727589039363,
+    "relativePath": "particle"
+  },
+  "ae6c6c98-11e4-452f-8758-75f5c6a56e83": {
+    "asset": 1637579759000,
+    "meta": 1727589039363,
+    "relativePath": "prefab"
+  },
+  "d8afc78c-4eac-4a9f-83dd-67bc70344d33": {
+    "asset": 1637579759000,
+    "meta": 1727589039363,
+    "relativePath": "resources"
+  },
+  "430eccbf-bf2c-4e6e-8c0c-884bbb487f32": {
+    "asset": 1637579759000,
+    "meta": 1727589039375,
+    "relativePath": "effects/__builtin-editor-gizmo-line.effect"
+  },
+  "6c5cf6e1-b044-4eac-9431-835644d57381": {
+    "asset": 1637579759000,
+    "meta": 1727589039380,
+    "relativePath": "effects/__builtin-editor-gizmo-unlit.effect"
+  },
+  "115286d1-2e10-49ee-aab4-341583f607e8": {
+    "asset": 1637579759000,
+    "meta": 1727589039398,
+    "relativePath": "effects/__builtin-editor-gizmo.effect"
+  },
+  "abc2cb62-7852-4525-a90d-d474487b88f2": {
+    "asset": 1637579759000,
+    "meta": 1727589039451,
+    "relativePath": "effects/builtin-phong.effect"
+  },
+  "e2f00085-c597-422d-9759-52c360279106": {
+    "asset": 1637579759000,
+    "meta": 1727589039478,
+    "relativePath": "effects/builtin-toon.effect"
+  },
+  "71561142-4c83-4933-afca-cb7a17f67053": {
+    "asset": 1637579759000,
+    "meta": 1727589039490,
+    "relativePath": "image/default_btn_disabled.png"
+  },
+  "edd215b9-2796-4a05-aaf5-81f96c9281ce": {
+    "asset": 1637579759000,
+    "meta": 1727589039490,
+    "relativePath": "image/default_editbox_bg.png"
+  },
+  "e851e89b-faa2-4484-bea6-5c01dd9f06e2": {
+    "asset": 1637579759000,
+    "meta": 1727589039491,
+    "relativePath": "image/default_btn_normal.png"
+  },
+  "cfef78f1-c8df-49b7-8ed0-4c953ace2621": {
+    "asset": 1637579759000,
+    "meta": 1727589039493,
+    "relativePath": "image/default_progressbar.png"
+  },
+  "b43ff3c2-02bb-4874-81f7-f2dea6970f18": {
+    "asset": 1637579759000,
+    "meta": 1727589039494,
+    "relativePath": "image/default_btn_pressed.png"
+  },
+  "d81ec8ad-247c-4e62-aa3c-d35c4193c7af": {
+    "asset": 1637579759000,
+    "meta": 1727589039494,
+    "relativePath": "image/default_panel.png"
+  },
+  "600301aa-3357-4a10-b086-84f011fa32ba": {
+    "asset": 1637579759000,
+    "meta": 1727589039496,
+    "relativePath": "image/default-particle.png"
+  },
+  "99170b0b-d210-46f1-b213-7d9e3f23098a": {
+    "asset": 1637579759000,
+    "meta": 1727589039497,
+    "relativePath": "image/default_progressbar_bg.png"
+  },
+  "567dcd80-8bf4-4535-8a5a-313f1caf078a": {
+    "asset": 1637579759000,
+    "meta": 1727589039497,
+    "relativePath": "image/default_radio_button_off.png"
+  },
+  "e39e96e6-6f6e-413f-bcf1-ac7679bb648a": {
+    "asset": 1637579759000,
+    "meta": 1727589039508,
+    "relativePath": "model/prefab"
+  },
+  "9d60001f-b5f4-4726-a629-2659e3ded0b8": {
+    "asset": 1637579759000,
+    "meta": 1727589039498,
+    "relativePath": "image/default_radio_button_on.png"
+  },
+  "0291c134-b3da-4098-b7b5-e397edbe947f": {
+    "asset": 1637579759000,
+    "meta": 1727589039506,
+    "relativePath": "image/default_scrollbar.png"
+  },
+  "4bab67cb-18e6-4099-b840-355f0473f890": {
+    "asset": 1637579759000,
+    "meta": 1727589039507,
+    "relativePath": "image/default_scrollbar_bg.png"
+  },
+  "d6d3ca85-4681-47c1-b5dd-d036a9d39ea2": {
+    "asset": 1637579759000,
+    "meta": 1727589039508,
+    "relativePath": "image/default_scrollbar_vertical.png"
+  },
+  "617323dd-11f4-4dd3-8eec-0caf6b3b45b9": {
+    "asset": 1637579759000,
+    "meta": 1727589039509,
+    "relativePath": "image/default_scrollbar_vertical_bg.png"
+  },
+  "0275e94c-56a7-410f-bd1a-fc7483f7d14a": {
+    "asset": 1637579759000,
+    "meta": 1727589039643,
+    "relativePath": "image/default_sprite_splash.png"
+  },
+  "6e056173-d285-473c-b206-40a7fff5386e": {
+    "asset": 1637579759000,
+    "meta": 1727589039644,
+    "relativePath": "image/default_sprite.png"
+  },
+  "73a0903d-d80e-4e3c-aa67-f999543c08f5": {
+    "asset": 1637579759000,
+    "meta": 1727589039644,
+    "relativePath": "image/default_toggle_checkmark.png"
+  },
+  "c4480a0a-6ac5-443f-8b40-361a14257fc8": {
+    "asset": 1637579759000,
+    "meta": 1727589040444,
+    "relativePath": "materials/builtin-phong.mtl"
+  },
+  "897ef7a1-4860-4f64-968d-f5924b18668a": {
+    "asset": 1637579759000,
+    "meta": 1727589039656,
+    "relativePath": "prefab/2d-camera.prefab"
+  },
+  "c25b9d50-c8fc-4d27-beeb-6e7c1f2e5c0f": {
+    "asset": 1637579759000,
+    "meta": 1727589039645,
+    "relativePath": "image/default_toggle_disabled.png"
+  },
+  "70d7cdb0-04cd-41bb-9480-c06a4785f386": {
+    "asset": 1637579759000,
+    "meta": 1727589039657,
+    "relativePath": "prefab/3d-camera.prefab"
+  },
+  "70bbeb73-6dc2-4ee4-8faf-76b3a0e34ec4": {
+    "asset": 1637579759000,
+    "meta": 1727589039657,
+    "relativePath": "prefab/3d-particle.prefab"
+  },
+  "d29077ba-1627-4a72-9579-7b56a235340c": {
+    "asset": 1637579759000,
+    "meta": 1727589039646,
+    "relativePath": "image/default_toggle_normal.png"
+  },
+  "ed88f13d-fcad-4848-aa35-65a2cb973584": {
+    "asset": 1637579759000,
+    "meta": 1727589039658,
+    "relativePath": "prefab/3d-stage.prefab"
+  },
+  "a3ee0214-b432-4865-9666-4a3211814282": {
+    "asset": 1637579759000,
+    "meta": 1727589039659,
+    "relativePath": "prefab/light"
+  },
+  "b181c1e4-0a72-4a91-bfb0-ae6f36ca60bd": {
+    "asset": 1637579759000,
+    "meta": 1727589039646,
+    "relativePath": "image/default_toggle_pressed.png"
+  },
+  "972b9a4d-47ee-4c74-b5c3-61d8a69bc29f": {
+    "asset": 1637579759000,
+    "meta": 1727589039660,
+    "relativePath": "prefab/button.prefab"
+  },
+  "2c937608-2562-40ea-b264-7395df6f0cea": {
+    "asset": 1637579759000,
+    "meta": 1727589039661,
+    "relativePath": "prefab/canvas.prefab"
+  },
+  "27756ebb-3d33-44b0-9b96-e858fadd4dd4": {
+    "asset": 1637579759000,
+    "meta": 1727589039662,
+    "relativePath": "prefab/label.prefab"
+  },
+  "61aeb05b-3b32-452b-8eed-2b76deeed554": {
+    "asset": 1637579759000,
+    "meta": 1727589039662,
+    "relativePath": "prefab/editbox.prefab"
+  },
+  "785a442c-3ceb-45be-a46e-7317f625f3b9": {
+    "asset": 1637579759000,
+    "meta": 1727589039663,
+    "relativePath": "prefab/layout.prefab"
+  },
+  "ca8401fe-ad6e-41a8-bd46-8e3e4e9945be": {
+    "asset": 1637579759000,
+    "meta": 1727589039664,
+    "relativePath": "prefab/pageview.prefab"
+  },
+  "cd33edea-55f5-46c2-958d-357a01384a36": {
+    "asset": 1637579759000,
+    "meta": 1727589039664,
+    "relativePath": "prefab/particlesystem.prefab"
+  },
+  "5965ffac-69da-4b55-bcde-9225d0613c28": {
+    "asset": 1637579759000,
+    "meta": 1727589039665,
+    "relativePath": "prefab/progressBar.prefab"
+  },
+  "4a37dd57-78cd-4cec-aad4-f11a73d12b63": {
+    "asset": 1637579759000,
+    "meta": 1727589039667,
+    "relativePath": "prefab/richtext.prefab"
+  },
+  "32044bd2-481f-4cf1-a656-e2b2fb1594eb": {
+    "asset": 1637579759000,
+    "meta": 1727589039667,
+    "relativePath": "prefab/scrollview.prefab"
+  },
+  "0004d1cf-a0ad-47d8-ab17-34d3db9d35a3": {
+    "asset": 1637579759000,
+    "meta": 1727589039668,
+    "relativePath": "prefab/slider.prefab"
+  },
+  "96083d03-c332-4a3f-9386-d03e2d19e8ee": {
+    "asset": 1637579759000,
+    "meta": 1727589039669,
+    "relativePath": "prefab/sprite.prefab"
+  },
+  "2be36297-9abb-4fee-8049-9ed5e271da8a": {
+    "asset": 1637579759000,
+    "meta": 1727589039669,
+    "relativePath": "misc/default_video.mp4"
+  },
+  "1f55e3be-b89b-4b79-88de-47fd31018044": {
+    "asset": 1637579759000,
+    "meta": 1727589039670,
+    "relativePath": "prefab/sprite_splash.prefab"
+  },
+  "294c1663-4adf-4a1e-a795-53808011a38a": {
+    "asset": 1637579759000,
+    "meta": 1727589039670,
+    "relativePath": "resources/effects"
+  },
+  "bbee2217-c261-49bd-a8ce-708d6bcc3500": {
+    "asset": 1637579759000,
+    "meta": 1727589039671,
+    "relativePath": "resources/materials"
+  },
+  "7de03a80-4457-438d-95a7-3e7cdffd6086": {
+    "asset": 1637579759000,
+    "meta": 1727589039671,
+    "relativePath": "prefab/tiledmap.prefab"
+  },
+  "0e42ba95-1fa1-46aa-b2cf-143cd1bcee2c": {
+    "asset": 1637579759000,
+    "meta": 1727589039672,
+    "relativePath": "prefab/tiledtile.prefab"
+  },
+  "d0a82d39-bede-46c4-b698-c81ff0dedfff": {
+    "asset": 1637579759000,
+    "meta": 1727589039670,
+    "relativePath": "particle/atom.png"
+  },
+  "0d784963-d024-4ea6-a7db-03be0ad63010": {
+    "asset": 1637579759000,
+    "meta": 1727589039673,
+    "relativePath": "prefab/toggle.prefab"
+  },
+  "bf0a434c-84dd-4a8e-a08a-7a36f180cc75": {
+    "asset": 1637579759000,
+    "meta": 1727589039674,
+    "relativePath": "prefab/toggleContainer.prefab"
+  },
+  "232d2782-c4bd-4bb4-9e01-909f03d6d3b9": {
+    "asset": 1637579759000,
+    "meta": 1727589039674,
+    "relativePath": "prefab/videoplayer.prefab"
+  },
+  "8a96b965-2dc0-4e03-aa90-3b79cb93b5b4": {
+    "asset": 1637579759000,
+    "meta": 1727589039671,
+    "relativePath": "obsolete/atom.png"
+  },
+  "8c5001fd-07ee-4a4b-a8a0-63e15195e94d": {
+    "asset": 1637579759000,
+    "meta": 1727589039675,
+    "relativePath": "prefab/webview.prefab"
+  },
+  "d1b8be49-b0a0-435c-83b7-552bed4bbe35": {
+    "asset": 1637579759000,
+    "meta": 1727589039675,
+    "relativePath": "prefab/toggleGroup.prefab"
+  },
+  "a87cc147-01b2-43f8-8e42-a7ca90b0c757": {
+    "asset": 1637579759000,
+    "meta": 1727589039676,
+    "relativePath": "model/prefab/box.prefab"
+  },
+  "fe1417b6-fe6b-46a4-ae7c-9fd331f33a2a": {
+    "asset": 1637579759000,
+    "meta": 1727589039676,
+    "relativePath": "model/prefab/capsule.prefab"
+  },
+  "b5fc2cf2-7942-483d-be1f-bbeadc4714ad": {
+    "asset": 1637579759000,
+    "meta": 1727589039677,
+    "relativePath": "model/prefab/cone.prefab"
+  },
+  "1c5e4038-953a-44c2-b620-0bbfc6170477": {
+    "asset": 1637579759000,
+    "meta": 1727589039678,
+    "relativePath": "model/prefab/cylinder.prefab"
+  },
+  "30682f87-9f0d-4f17-8a44-72863791461b": {
+    "asset": 1637579759000,
+    "meta": 1727589039682,
+    "relativePath": "resources/effects/builtin-2d-graphics.effect"
+  },
+  "3f376125-a699-40ca-ad05-04d662eaa1f2": {
+    "asset": 1637579759000,
+    "meta": 1727589039683,
+    "relativePath": "model/prefab/plane.prefab"
+  },
+  "144c3297-af63-49e8-b8ef-1cfa29b3be28": {
+    "asset": 1637579759000,
+    "meta": 1727589039687,
+    "relativePath": "resources/effects/builtin-2d-gray-sprite.effect"
+  },
+  "f18742d7-56d2-4eb5-ae49-2d9d710b37c8": {
+    "asset": 1637579759000,
+    "meta": 1727589039693,
+    "relativePath": "resources/effects/builtin-2d-label.effect"
+  },
+  "b8223619-7e38-47c4-841f-9160c232495a": {
+    "asset": 1637579759000,
+    "meta": 1727589040452,
+    "relativePath": "obsolete/atom.plist"
+  },
+  "0e93aeaa-0b53-4e40-b8e0-6268b4e07bd7": {
+    "asset": 1637579759000,
+    "meta": 1727589039699,
+    "relativePath": "resources/effects/builtin-2d-spine.effect"
+  },
+  "b2687ac4-099e-403c-a192-ff477686f4f5": {
+    "asset": 1637579759000,
+    "meta": 1727589040452,
+    "relativePath": "particle/atom.plist"
+  },
+  "6c9ef10d-b479-420b-bfe6-39cdda6a8ae0": {
+    "asset": 1637579759000,
+    "meta": 1727589039699,
+    "relativePath": "model/prefab/quad.prefab"
+  },
+  "2874f8dd-416c-4440-81b7-555975426e93": {
+    "asset": 1637579759000,
+    "meta": 1727589039703,
+    "relativePath": "resources/effects/builtin-2d-sprite.effect"
+  },
+  "2d9a4b85-b0ab-4c46-84c5-18f393ab2058": {
+    "asset": 1637579759000,
+    "meta": 1727589039703,
+    "relativePath": "model/prefab/sphere.prefab"
+  },
+  "829a282c-b049-4019-bd38-5ace8d8a6417": {
+    "asset": 1637579759000,
+    "meta": 1727589039745,
+    "relativePath": "resources/effects/builtin-3d-particle.effect"
+  },
+  "61906da3-7003-4bda-9abc-5769c76faee4": {
+    "asset": 1637579759000,
+    "meta": 1727589039746,
+    "relativePath": "prefab/light/ambient.prefab"
+  },
+  "2a7c0036-e0b3-4fe1-8998-89a54b8a2bec": {
+    "asset": 1637579759000,
+    "meta": 1727589039754,
+    "relativePath": "resources/effects/builtin-3d-trail.effect"
+  },
+  "c0040c95-c57f-49cd-9cbc-12316b73d0d4": {
+    "asset": 1637579759000,
+    "meta": 1727589039757,
+    "relativePath": "resources/effects/builtin-clear-stencil.effect"
+  },
+  "6d91e591-4ce0-465c-809f-610ec95019c6": {
+    "asset": 1637579759000,
+    "meta": 1727589039764,
+    "relativePath": "resources/effects/builtin-unlit.effect"
+  },
+  "de510076-056b-484f-b94c-83bef217d0e1": {
+    "asset": 1637579759000,
+    "meta": 1727589039765,
+    "relativePath": "model/prefab/torus.prefab"
+  },
+  "ddb99b39-7004-47cd-9705-751905c43c46": {
+    "asset": 1637579759000,
+    "meta": 1727589039765,
+    "relativePath": "prefab/light/directional.prefab"
+  },
+  "f5331fd2-bf42-4ee3-a3fd-3e1657600eff": {
+    "asset": 1637579759000,
+    "meta": 1727589039766,
+    "relativePath": "prefab/light/spot.prefab"
+  },
+  "0cf30284-9073-46bc-9eba-e62b69dbbff3": {
+    "asset": 1637579759000,
+    "meta": 1727589039766,
+    "relativePath": "prefab/light/point.prefab"
+  },
+  "6f801092-0c37-4f30-89ef-c8d960825b36": {
+    "asset": 1637579759000,
+    "meta": 1727589040453,
+    "relativePath": "resources/materials/builtin-2d-base.mtl"
+  },
+  "3a7bb79f-32fd-422e-ada2-96f518fed422": {
+    "asset": 1637579759000,
+    "meta": 1727589040453,
+    "relativePath": "resources/materials/builtin-2d-gray-sprite.mtl"
+  },
+  "a153945d-2511-4c14-be7b-05d242f47d57": {
+    "asset": 1637579759000,
+    "meta": 1727589040453,
+    "relativePath": "resources/materials/builtin-2d-graphics.mtl"
+  },
+  "7afd064b-113f-480e-b793-8817d19f63c3": {
+    "asset": 1637579759000,
+    "meta": 1727589040454,
+    "relativePath": "resources/materials/builtin-2d-spine.mtl"
+  },
+  "e02d87d4-e599-4d16-8001-e14891ac6506": {
+    "asset": 1637579759000,
+    "meta": 1727589040454,
+    "relativePath": "resources/materials/builtin-2d-label.mtl"
+  },
+  "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432": {
+    "asset": 1637579759000,
+    "meta": 1727589040454,
+    "relativePath": "resources/materials/builtin-2d-sprite.mtl"
+  },
+  "432fa09c-cf03-4cff-a186-982604408a07": {
+    "asset": 1637579759000,
+    "meta": 1727589040454,
+    "relativePath": "resources/materials/builtin-3d-particle.mtl"
+  },
+  "cf7e0bb8-a81c-44a9-ad79-d28d43991032": {
+    "asset": 1637579759000,
+    "meta": 1727589040454,
+    "relativePath": "resources/materials/builtin-clear-stencil.mtl"
+  },
+  "466d4f9b-e5f4-4ea8-85d5-3c6e9a65658a": {
+    "asset": 1637579759000,
+    "meta": 1727589040454,
+    "relativePath": "resources/materials/builtin-3d-trail.mtl"
+  },
+  "2a296057-247c-4a1c-bbeb-0548b6c98650": {
+    "asset": 1637579759000,
+    "meta": 1727589040455,
+    "relativePath": "resources/materials/builtin-unlit.mtl"
+  },
+  "954fec8b-cd16-4bb9-a3b7-7719660e7558": {
+    "asset": 1637579759000,
+    "meta": 1727589041667,
+    "relativePath": "model/primitives.fbx"
+  },
+  "dda885dc-4fc8-4dee-99cd-91c3bb6b285d": {
+    "asset": 1727589041675,
+    "meta": 1727589041773,
+    "relativePath": "migration"
+  },
+  "977cfe9b-21c7-498e-b060-541800511a8b": {
+    "asset": 1727588527567,
+    "meta": 1727589042850,
+    "relativePath": "mikado_outline_shadow.fnt"
+  },
+  "64ddc832-7c00-41e4-a867-78215d24b109": {
+    "asset": 1727588527585,
+    "meta": 1727589041775,
+    "relativePath": "resources"
+  },
+  "c640f685-ecbf-45e9-aecf-3dd8138894f3": {
+    "asset": 1727588527588,
+    "meta": 1727589041775,
+    "relativePath": "scripts"
+  },
+  "0d5f5ab0-e753-42f1-a392-1507d7cac985": {
+    "asset": 1727588527715,
+    "meta": 1727589041775,
+    "relativePath": "textures"
+  },
+  "17b6ab3d-6fb0-4da5-9d79-c0cd0b0184a0": {
+    "asset": 1727589038791,
+    "meta": 1727589041791,
+    "relativePath": "migration/use_reversed_rotateTo.js"
+  },
+  "9dac7707-069c-43ef-aa89-f8f88cd7dfc0": {
+    "asset": 1727588527568,
+    "meta": 1727589041792,
+    "relativePath": "resources/anim"
+  },
+  "398c5686-1fba-4c5f-8951-eb52aadba311": {
+    "asset": 1727588527578,
+    "meta": 1727589041792,
+    "relativePath": "resources/audio"
+  },
+  "21d288f6-b67f-4436-853f-c8fe9c3cd2a4": {
+    "asset": 1727588527583,
+    "meta": 1727589041792,
+    "relativePath": "resources/images"
+  },
+  "5602478b-8929-4498-bbe1-0f14b0211665": {
+    "asset": 1727588527586,
+    "meta": 1727589041792,
+    "relativePath": "resources/prefab"
+  },
+  "515f556f-be47-4434-852a-3744f093edfb": {
+    "asset": 1727588527586,
+    "meta": 1727589041806,
+    "relativePath": "scripts/background.js"
+  },
+  "ef1766af-c941-4d6b-9318-eb4aef4c0bce": {
+    "asset": 1727588527587,
+    "meta": 1727589041922,
+    "relativePath": "scripts/button-audio-effect"
+  },
+  "d6591e80-3ddb-4331-bbae-64cd80075db8": {
+    "asset": 1727588527587,
+    "meta": 1727589041922,
+    "relativePath": "scripts/dialog"
+  },
+  "561a6e30-c927-46ab-ae15-d23bb766fb46": {
+    "asset": 1727588527587,
+    "meta": 1727589041958,
+    "relativePath": "scripts/intro.js"
+  },
+  "6ec1a197-888c-4ece-857b-5fc5386bad32": {
+    "asset": 1727588527588,
+    "meta": 1727589041978,
+    "relativePath": "scripts/rule.js"
+  },
+  "008d5ee1-0b29-4919-bb0d-87109eb2617f": {
+    "asset": 1727588527648,
+    "meta": 1727589041979,
+    "relativePath": "textures/space-shooter-game-gui"
+  },
+  "2bebbcd2-46e4-4196-8250-816d7f229096": {
+    "asset": 1727588527713,
+    "meta": 1727589041979,
+    "relativePath": "textures/space-shooter-game-objects"
+  },
+  "ed67c3ed-649c-4b26-a3ab-bb02f5a96b61": {
+    "asset": 1727589041993,
+    "meta": 1727589041993,
+    "relativePath": "intro.fire"
+  },
+  "1550c80a-2c33-45a2-80f0-57abd2c9de3e": {
+    "asset": 1727594629201,
+    "meta": 1727594629205,
+    "relativePath": "game.fire"
+  },
+  "4e7f2bbd-7252-4736-a2db-73b2f01e6271": {
+    "asset": 1727588527568,
+    "meta": 1727589041998,
+    "relativePath": "resources/anim/scale-in.anim"
+  },
+  "e67f2786-c27b-438f-8c36-d62db671e55d": {
+    "asset": 1727588527568,
+    "meta": 1727589041999,
+    "relativePath": "resources/anim/slice-in.anim"
+  },
+  "95f289d0-e675-4dab-ac37-9132d4cf9b10": {
+    "asset": 1727588527579,
+    "meta": 1727589041999,
+    "relativePath": "resources/images/Meteor_A"
+  },
+  "30d0f0fc-4e6c-4be1-8694-a3755ad5640a": {
+    "asset": 1727588527568,
+    "meta": 1727589041999,
+    "relativePath": "resources/anim/slice-out.anim"
+  },
+  "3699d855-c919-431e-8337-0ca3694da7c8": {
+    "asset": 1727588527581,
+    "meta": 1727589041999,
+    "relativePath": "resources/images/Meteor_B"
+  },
+  "f9c7ec08-ffe8-472e-ad92-43834ea52f29": {
+    "asset": 1727588527582,
+    "meta": 1727589042000,
+    "relativePath": "resources/images/Meteor_C"
+  },
+  "0f7447bb-2907-4900-b223-30332e4eac21": {
+    "asset": 1727588527583,
+    "meta": 1727589042000,
+    "relativePath": "resources/images/Meteor_D"
+  },
+  "d9ae5dbe-de06-49da-9345-68692488fcd6": {
+    "asset": 1727588527585,
+    "meta": 1727589042001,
+    "relativePath": "resources/images/Meteor_E"
+  },
+  "2bb1cb61-f785-4fb4-9687-d5ceddb954bf": {
+    "asset": 1727589042003,
+    "meta": 1727589042003,
+    "relativePath": "resources/prefab/bomb_active.prefab"
+  },
+  "59e8e449-6fac-4ea4-be13-c235c0de437f": {
+    "asset": 1727589042004,
+    "meta": 1727589042004,
+    "relativePath": "resources/prefab/bomb_normal.prefab"
+  },
+  "0f9af842-e6e5-41d2-b6f2-f5e881a9df74": {
+    "asset": 1727589042005,
+    "meta": 1727589042005,
+    "relativePath": "resources/prefab/dialog.prefab"
+  },
+  "e696cd52-0385-4e13-a012-81d978a57c53": {
+    "asset": 1727588527586,
+    "meta": 1727589042010,
+    "relativePath": "scripts/button-audio-effect/button-audio-effect.js"
+  },
+  "e4bbb536-1ee0-4348-9133-cdc800fa2220": {
+    "asset": 1727589042011,
+    "meta": 1727589042011,
+    "relativePath": "resources/prefab/meteor.prefab"
+  },
+  "a84d0e01-4b04-4525-a737-82b3611b2d40": {
+    "asset": 1727588527587,
+    "meta": 1727589042019,
+    "relativePath": "scripts/dialog/cover.js"
+  },
+  "01159320-f977-423c-ab02-7fe109fd1e97": {
+    "asset": 1727588527587,
+    "meta": 1727589042027,
+    "relativePath": "scripts/dialog/dialog.js"
+  },
+  "0e15ac70-dce5-4da8-a812-166e9f815dad": {
+    "asset": 1727588527645,
+    "meta": 1727589042030,
+    "relativePath": "textures/space-shooter-game-gui/PNG"
+  },
+  "d656fbc6-841c-4889-b086-40a0b1d1da67": {
+    "asset": 1727588527650,
+    "meta": 1727589042030,
+    "relativePath": "textures/space-shooter-game-gui/TXT"
+  },
+  "aa91d198-8467-46e9-baeb-791388df5af7": {
+    "asset": 1727588527661,
+    "meta": 1727589042030,
+    "relativePath": "textures/space-shooter-game-objects/PNG"
+  },
+  "aa3f0c02-4ba6-495a-af64-d2fedd8a1cbe": {
+    "asset": 1727588527714,
+    "meta": 1727589042030,
+    "relativePath": "textures/space-shooter-game-objects/TXT"
+  },
+  "03189cd1-748d-4fc1-823a-062b515c0547": {
+    "asset": 1727588527715,
+    "meta": 1727589042019,
+    "relativePath": "textures/tokens.png"
+  },
+  "f3779477-7dbf-4751-902f-985973720152": {
+    "asset": 1727588527567,
+    "meta": 1727589042029,
+    "relativePath": "mikado_outline_shadow.png"
+  },
+  "0d80c7bd-3f4c-4cdd-ac84-1579119d3270": {
+    "asset": 1727588527579,
+    "meta": 1727589042038,
+    "relativePath": "resources/images/Meteor_A/A_L.png"
+  },
+  "c02ce7e2-227a-46d9-a416-055cf1210741": {
+    "asset": 1727588527579,
+    "meta": 1727589042039,
+    "relativePath": "resources/images/Meteor_A/A_R.png"
+  },
+  "8f317e88-28e7-4d90-b20e-a4617ffa0834": {
+    "asset": 1727588527578,
+    "meta": 1727589042040,
+    "relativePath": "resources/images/Meteor_A/A_D.png"
+  },
+  "584f943c-e931-4fc1-975c-615ea3f80979": {
+    "asset": 1727588527580,
+    "meta": 1727589042045,
+    "relativePath": "resources/images/Meteor_B/B_D.png"
+  },
+  "4ab8eb94-a441-49d2-a5d7-9c18305fb9e1": {
+    "asset": 1727588527580,
+    "meta": 1727589042045,
+    "relativePath": "resources/images/Meteor_B/B_L.png"
+  },
+  "71befce6-96df-4780-99c9-16482460dacd": {
+    "asset": 1727588527579,
+    "meta": 1727589042046,
+    "relativePath": "resources/images/Meteor_A/A_U.png"
+  },
+  "2fff52ab-894f-4def-b9bf-5830d595b5a3": {
+    "asset": 1727588527580,
+    "meta": 1727589042051,
+    "relativePath": "resources/images/Meteor_B/B_U.png"
+  },
+  "4e16474e-1367-4136-b1e6-088de1e0f193": {
+    "asset": 1727588527580,
+    "meta": 1727589042051,
+    "relativePath": "resources/images/Meteor_B/B_R.png"
+  },
+  "f77f000d-6b22-44fd-beb5-dff275dbd6fd": {
+    "asset": 1727588527581,
+    "meta": 1727589042053,
+    "relativePath": "resources/images/Meteor_C/C_D.png"
+  },
+  "f0d67205-6d9c-4b6d-81da-92c615b913ac": {
+    "asset": 1727588527581,
+    "meta": 1727589042058,
+    "relativePath": "resources/images/Meteor_C/C_L.png"
+  },
+  "f62fedf0-bda4-47f5-a225-904381124009": {
+    "asset": 1727588527581,
+    "meta": 1727589042059,
+    "relativePath": "resources/images/Meteor_C/C_R.png"
+  },
+  "3cde81aa-2ec3-40ca-9c8f-bc333249471b": {
+    "asset": 1727588527582,
+    "meta": 1727589042059,
+    "relativePath": "resources/images/Meteor_C/C_U.png"
+  },
+  "357ec8f5-c1a3-4f2b-a48d-de9c90a6f1da": {
+    "asset": 1727588527589,
+    "meta": 1727589042064,
+    "relativePath": "textures/BG.png"
+  },
+  "e9b97cd3-4f44-4553-9558-1ebff5648992": {
+    "asset": 1727588527582,
+    "meta": 1727589042066,
+    "relativePath": "resources/images/Meteor_D/D_D.png"
+  },
+  "13adb2f7-620e-4f0c-be89-88f2ac5357f9": {
+    "asset": 1727588527591,
+    "meta": 1727589042073,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Accept"
+  },
+  "835e0be8-e44c-4337-b00e-60763e7a7f31": {
+    "asset": 1727588527596,
+    "meta": 1727589042073,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons"
+  },
+  "98cb3dfe-2852-42da-9be8-11e57b76854e": {
+    "asset": 1727588527583,
+    "meta": 1727589042066,
+    "relativePath": "resources/images/Meteor_D/D_R.png"
+  },
+  "eef21101-4c74-4c38-ae91-e372daff18cf": {
+    "asset": 1727588527582,
+    "meta": 1727589042067,
+    "relativePath": "resources/images/Meteor_D/D_L.png"
+  },
+  "39ec125d-5805-4f80-8d0a-f4e8caca260e": {
+    "asset": 1727588527603,
+    "meta": 1727589042074,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Clouds"
+  },
+  "e1f12cd8-58db-471c-aba9-aba45b949999": {
+    "asset": 1727588527583,
+    "meta": 1727589042070,
+    "relativePath": "resources/images/Meteor_D/D_U.png"
+  },
+  "4af407ca-9bf6-4849-9b19-8463066faee4": {
+    "asset": 1727588527608,
+    "meta": 1727589042074,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar"
+  },
+  "e2943c2f-4dc4-44dc-99fe-389393001669": {
+    "asset": 1727588527584,
+    "meta": 1727589042072,
+    "relativePath": "resources/images/Meteor_E/E_L.png"
+  },
+  "220558dd-a108-4285-96f9-bfe066ebc97b": {
+    "asset": 1727588527610,
+    "meta": 1727589042075,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Level_Menu"
+  },
+  "8cd243ff-2063-4ef7-a6e2-f026ade12668": {
+    "asset": 1727588527612,
+    "meta": 1727589042075,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Loading_Bar"
+  },
+  "c794f98b-6d72-4b17-953d-0a8870dddfcc": {
+    "asset": 1727588527615,
+    "meta": 1727589042075,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu"
+  },
+  "fb71e121-b84b-41ce-96af-d7ddaee4e66e": {
+    "asset": 1727588527584,
+    "meta": 1727589042074,
+    "relativePath": "resources/images/Meteor_E/E_R.png"
+  },
+  "3cdb3fd6-e285-4470-b4d5-a127360a495d": {
+    "asset": 1727588527618,
+    "meta": 1727589042076,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI"
+  },
+  "1c2320f0-f58e-4980-9546-436032f129f7": {
+    "asset": 1727588527619,
+    "meta": 1727589042076,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Pause"
+  },
+  "d3b7c20d-d634-4b0a-a2c7-746811cde5f0": {
+    "asset": 1727588527583,
+    "meta": 1727589042074,
+    "relativePath": "resources/images/Meteor_E/E_D.png"
+  },
+  "961387e8-25a2-42b0-8f9f-3e3ad65722a8": {
+    "asset": 1727588527623,
+    "meta": 1727589042076,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Rating"
+  },
+  "2baeaf73-ca64-4ff6-8435-168a41f1f546": {
+    "asset": 1727588527627,
+    "meta": 1727589042076,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting"
+  },
+  "a02ba461-df2c-4d75-9ddf-102c84bb2590": {
+    "asset": 1727588527634,
+    "meta": 1727589042076,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts"
+  },
+  "c72bf4f7-c221-474d-a75d-94a2e96f6f71": {
+    "asset": 1727588527636,
+    "meta": 1727589042077,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop"
+  },
+  "1345a4b5-38de-4d46-99b4-74b1cc525174": {
+    "asset": 1727588527640,
+    "meta": 1727589042077,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop"
+  },
+  "624a24ec-ab2c-4ce7-a60f-ec022ae73f8a": {
+    "asset": 1727588527643,
+    "meta": 1727589042077,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade"
+  },
+  "24399335-306a-42c8-89f1-32dce10d37cb": {
+    "asset": 1727588527585,
+    "meta": 1727589042075,
+    "relativePath": "resources/images/Meteor_E/E_U.png"
+  },
+  "2b07097e-459b-4493-85b7-4503b5f255ab": {
+    "asset": 1727588527645,
+    "meta": 1727589042077,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose"
+  },
+  "fbf82048-05d2-4b41-bf9e-eb602b2ec345": {
+    "asset": 1727588527648,
+    "meta": 1727589042078,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win"
+  },
+  "e2e85eb5-8acf-40df-a8b0-dd4a294a1e4a": {
+    "asset": 1727588527650,
+    "meta": 1727589042078,
+    "relativePath": "textures/space-shooter-game-gui/TXT/ethnocentric"
+  },
+  "554c4c64-7409-41d2-80e4-be76692f82f2": {
+    "asset": 1727588527652,
+    "meta": 1727589042078,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Bonus_Items"
+  },
+  "4ba276ea-246b-4180-bc2c-931810b70550": {
+    "asset": 1727588527656,
+    "meta": 1727589042079,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Meteors"
+  },
+  "947b90fe-b0b1-4b33-8e6c-8da69c42b6a1": {
+    "asset": 1727588527661,
+    "meta": 1727589042079,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props"
+  },
+  "bc79f82e-1d69-472a-97d4-7bd70ec8bc21": {
+    "asset": 1727588527690,
+    "meta": 1727589042079,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites"
+  },
+  "dda8d917-0a3d-4a5f-8295-a2134bf7b2b7": {
+    "asset": 1727588527714,
+    "meta": 1727589042079,
+    "relativePath": "textures/space-shooter-game-objects/TXT/nulshock"
+  },
+  "3e779a3a-a704-4e8d-be8a-a42f70ea4206": {
+    "asset": 1727588527650,
+    "meta": 1727589042080,
+    "relativePath": "textures/space-shooter-game-gui/TXT/readme.txt"
+  },
+  "8967f0ba-30d8-42d6-ad98-f3c01c32fe8d": {
+    "asset": 1727588527650,
+    "meta": 1727589042080,
+    "relativePath": "textures/space-shooter-game-gui/TXT/license.txt"
+  },
+  "0a66f2b1-86d5-4295-9715-04926f35fb34": {
+    "asset": 1727588527714,
+    "meta": 1727589042081,
+    "relativePath": "textures/space-shooter-game-objects/TXT/readme.txt"
+  },
+  "cb527b7b-6d88-47b5-b52e-46f3c9c815c2": {
+    "asset": 1727588527713,
+    "meta": 1727589042081,
+    "relativePath": "textures/space-shooter-game-objects/TXT/license.txt"
+  },
+  "2685bf2c-34af-412d-83b4-fcd06d9f7273": {
+    "asset": 1727588527595,
+    "meta": 1727589042087,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs"
+  },
+  "80f2e165-c66f-4efe-ad14-e888cd848092": {
+    "asset": 1727588527601,
+    "meta": 1727589042087,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active"
+  },
+  "acdb1c0a-5a44-4da6-8d7a-38d04aa6babf": {
+    "asset": 1727588527589,
+    "meta": 1727589042085,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Accept/Accept.png"
+  },
+  "986424e0-a7f6-4cc0-858b-bc83ed94b29f": {
+    "asset": 1727588527589,
+    "meta": 1727589042086,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Accept/Close_BTN.png"
+  },
+  "512dfb9c-8189-4b09-af6f-e93809f3976b": {
+    "asset": 1727588527590,
+    "meta": 1727589042086,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Accept/Information.png"
+  },
+  "54117619-9b9d-48fc-a82e-df73c8f4f324": {
+    "asset": 1727588527590,
+    "meta": 1727589042087,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Accept/FAQ_BTN.png"
+  },
+  "0a8abf66-a8c7-4dcc-84b2-55dcfa55b8a9": {
+    "asset": 1727588527590,
+    "meta": 1727589042091,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Accept/Purchase.png"
+  },
+  "61eb30b2-9bf3-4f5e-ad4a-ece0dfe72c56": {
+    "asset": 1727588527590,
+    "meta": 1727589042092,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Accept/Ok_BTN.png"
+  },
+  "f6f1cfa2-5361-47dd-8f9d-5b08222a45ea": {
+    "asset": 1727588527601,
+    "meta": 1727589042098,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Clouds/Cloud_01.png"
+  },
+  "c5c13d8a-ae55-47e5-bf25-8f3578790afe": {
+    "asset": 1727588527602,
+    "meta": 1727589042100,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Clouds/Cloud_02.png"
+  },
+  "b5ef9ba8-92f6-4be2-9dfc-5fcb9de69839": {
+    "asset": 1727588527602,
+    "meta": 1727589042102,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Clouds/Cloud_03.png"
+  },
+  "78daf4cb-3288-474a-a544-6a1248a7d9c4": {
+    "asset": 1727588527591,
+    "meta": 1727589042104,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Accept/Window.png"
+  },
+  "23f806ce-1981-4c4e-9c04-df760ec58062": {
+    "asset": 1727588527603,
+    "meta": 1727589042106,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Armor_Icon.png"
+  },
+  "00c5bf16-aa31-4b38-9f83-5f0d8ddaeabd": {
+    "asset": 1727588527603,
+    "meta": 1727589042107,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Backward_BTN.png"
+  },
+  "a6a28732-ddec-4bed-8492-d18969abbc55": {
+    "asset": 1727588527603,
+    "meta": 1727589042108,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Damage_Icon.png"
+  },
+  "e74cfcae-368a-436b-b643-e7142fbb579d": {
+    "asset": 1727588527603,
+    "meta": 1727589042110,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Clouds/Cloud_04.png"
+  },
+  "951b1793-47db-4d4e-ac3c-e3827f0ab976": {
+    "asset": 1727588527604,
+    "meta": 1727589042110,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Dot_01.png"
+  },
+  "26a96e0e-b28e-4eb6-a064-374fc89842f8": {
+    "asset": 1727588527604,
+    "meta": 1727589042111,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Dot_02.png"
+  },
+  "f8ba4f75-9235-45f6-b47e-19639673f333": {
+    "asset": 1727588527604,
+    "meta": 1727589042113,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Forward_BTN.png"
+  },
+  "0a9a60e2-5093-4178-aeaf-015e7d1475f6": {
+    "asset": 1727588527604,
+    "meta": 1727589042113,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/HP_Icon.png"
+  },
+  "df553c4c-c521-4e99-b0e1-4aa35199a46d": {
+    "asset": 1727588527604,
+    "meta": 1727589042115,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Header.png"
+  },
+  "855f486d-a9e2-4b6e-b2b5-13e8e0d8203c": {
+    "asset": 1727588527604,
+    "meta": 1727589042115,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Ship_BTN.png"
+  },
+  "63888c30-5bdf-4df7-9cb1-5250189f94a2": {
+    "asset": 1727588527604,
+    "meta": 1727589042117,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Speed_Icon.png"
+  },
+  "ab64afa2-92b5-45e9-9227-03063fa8ac0b": {
+    "asset": 1727588527605,
+    "meta": 1727589042119,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Table_02.png"
+  },
+  "3897cd91-8fa3-4d15-a7b0-aaa09bbbe258": {
+    "asset": 1727588527605,
+    "meta": 1727589042121,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Upgrade_BTN.png"
+  },
+  "55e91c98-22b9-4df9-a7a6-445dcac53962": {
+    "asset": 1727588527605,
+    "meta": 1727589042122,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Table_01.png"
+  },
+  "04625f64-fcae-4770-a299-e6a8749528f8": {
+    "asset": 1727588527608,
+    "meta": 1727589042125,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Level_Menu/Close_BTN.png"
+  },
+  "197d9ee0-f1a3-416a-bccd-a80f328ee400": {
+    "asset": 1727588527608,
+    "meta": 1727589042126,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Level_Menu/Hangar_BTN.png"
+  },
+  "ed34ba01-d309-4c59-b2bf-c7432cdf5c4b": {
+    "asset": 1727588527608,
+    "meta": 1727589042128,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Level_Menu/Header.png"
+  },
+  "28e5b669-5b88-416a-8d02-f37c4ff60a01": {
+    "asset": 1727588527609,
+    "meta": 1727589042130,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Level_Menu/Play_BTN.png"
+  },
+  "a5e1b049-1eff-4f26-b5ab-a389bead4eab": {
+    "asset": 1727588527609,
+    "meta": 1727589042131,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Level_Menu/Record.png"
+  },
+  "edb48328-d82b-40f9-ae9e-bbef4aecf39e": {
+    "asset": 1727588527609,
+    "meta": 1727589042135,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Level_Menu/Star_01.png"
+  },
+  "64d1dfd5-411a-47b1-a40f-6853558a64f5": {
+    "asset": 1727588527609,
+    "meta": 1727589042136,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Level_Menu/Star_02.png"
+  },
+  "673e78d4-9b12-4a16-8384-7da7fad84432": {
+    "asset": 1727588527610,
+    "meta": 1727589042140,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Level_Menu/Table.png"
+  },
+  "c2b591b2-330c-450e-a470-6adecfe96f5a": {
+    "asset": 1727588527607,
+    "meta": 1727589042141,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Window.png"
+  },
+  "65dbc312-c4d9-4e2f-9c40-1c1697564387": {
+    "asset": 1727588527609,
+    "meta": 1727589042142,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Level_Menu/Star_03.png"
+  },
+  "9c7d1193-123d-4ca9-829a-cf13c10fe972": {
+    "asset": 1727588527608,
+    "meta": 1727589042146,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Hangar/Window_2.png"
+  },
+  "2dc04400-33e0-4e08-9abc-7b85a21dbfb8": {
+    "asset": 1727588527611,
+    "meta": 1727589042146,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Loading_Bar/Loading_Bar_1_1.png"
+  },
+  "98244893-dd69-4a53-a66d-b1c8e76a6de5": {
+    "asset": 1727588527611,
+    "meta": 1727589042147,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Loading_Bar/Loading_Bar_1_2.png"
+  },
+  "c164beb1-2d98-4598-a98c-1ec2b565d827": {
+    "asset": 1727588527611,
+    "meta": 1727589042150,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Loading_Bar/Loading_Bar_1_3.png"
+  },
+  "3c0fb517-cd16-4a81-8c21-9dda3e663398": {
+    "asset": 1727588527611,
+    "meta": 1727589042150,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Loading_Bar/Loading_Bar_2_1.png"
+  },
+  "fca21b6c-c06b-490a-bda8-3d8f8b93e0bb": {
+    "asset": 1727588527611,
+    "meta": 1727589042151,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Loading_Bar/Loading_Bar_2_2.png"
+  },
+  "37a98cd4-861f-4cc8-aa33-1f0cdb438ec1": {
+    "asset": 1727588527611,
+    "meta": 1727589042154,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Loading_Bar/Loading_Bar_3_1.png"
+  },
+  "0a661eca-e337-4ff9-a1d2-4cc0da60d951": {
+    "asset": 1727588527611,
+    "meta": 1727589042154,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Loading_Bar/Loading_Bar_2_3.png"
+  },
+  "d018fc0e-c75a-4ff5-b230-a2d8549f1e33": {
+    "asset": 1727588527612,
+    "meta": 1727589042154,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Loading_Bar/Loading_Bar_3_2.png"
+  },
+  "51a78774-f5e5-47fe-b571-ae7a683432f6": {
+    "asset": 1727588527612,
+    "meta": 1727589042157,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Loading_Bar/Loading_Bar_3_3.png"
+  },
+  "2804e9b9-e5c0-4d86-b8ca-707d24ff5548": {
+    "asset": 1727588527612,
+    "meta": 1727589042158,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Loading_Bar/Table.png"
+  },
+  "4b788cdc-14ea-48cd-afcf-2bc5581660b7": {
+    "asset": 1727588527613,
+    "meta": 1727589042162,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/Exit_BTN.png"
+  },
+  "4831af6c-2ada-4df1-ac9f-64a4c618b519": {
+    "asset": 1727588527610,
+    "meta": 1727589042163,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Level_Menu/Window.png"
+  },
+  "94f266ed-fb65-450f-a533-3fd4b90a3519": {
+    "asset": 1727588527613,
+    "meta": 1727589042164,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/FAQ_BTN.png"
+  },
+  "fddfc030-bd7b-4e7f-8834-48180787c24d": {
+    "asset": 1727588527613,
+    "meta": 1727589042167,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/Google_BTN.png"
+  },
+  "ac249334-bf9f-498e-b9c7-05d7ce01f661": {
+    "asset": 1727588527613,
+    "meta": 1727589042168,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/Facebook_BTN.png"
+  },
+  "18aaef37-4053-4351-b989-430b43cb48d6": {
+    "asset": 1727588527614,
+    "meta": 1727589042172,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/Info_BTN.png"
+  },
+  "a1086566-af56-4eba-99aa-1a3598b5fa85": {
+    "asset": 1727588527614,
+    "meta": 1727589042172,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/Map_BTN.png"
+  },
+  "50cc4a3c-abf6-4109-90f1-71a86d12b3d4": {
+    "asset": 1727588527613,
+    "meta": 1727589042173,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/Header.png"
+  },
+  "7b28a498-132d-4ad4-91f5-085a9cc43697": {
+    "asset": 1727588527614,
+    "meta": 1727589042177,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/More_Games_BTN.png"
+  },
+  "4122d41b-8607-425a-985b-5b2b306e5b7d": {
+    "asset": 1727588527614,
+    "meta": 1727589042177,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/Rating_BTN.png"
+  },
+  "010ac270-c14b-4588-9cac-0c9d1b50253c": {
+    "asset": 1727588527614,
+    "meta": 1727589042177,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/Settings_BTN.png"
+  },
+  "c3f95fb0-b5ba-42c1-b3e8-346ae39d4322": {
+    "asset": 1727588527614,
+    "meta": 1727589042182,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/Shop_BTN.png"
+  },
+  "7d5b3d94-0d90-4c65-88e7-0a4546cb48cc": {
+    "asset": 1727588527615,
+    "meta": 1727589042182,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/Twitter_BTN.png"
+  },
+  "1c5c7258-39c0-4a05-a0bd-aa84dbb649a9": {
+    "asset": 1727588527615,
+    "meta": 1727589042183,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/Start_BTN.png"
+  },
+  "3a811ae0-3eb4-437f-858f-080cfc851af5": {
+    "asset": 1727588527612,
+    "meta": 1727589042186,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/BG.png"
+  },
+  "9dc83f43-74de-4541-af1f-ec7aeb8f8aef": {
+    "asset": 1727588527615,
+    "meta": 1727589042187,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Armor_Bar_Dot.png"
+  },
+  "295448fa-f752-4575-bc50-ffcae6011877": {
+    "asset": 1727588527615,
+    "meta": 1727589042187,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Armor_Bar_Table.png"
+  },
+  "862f16c1-d1b4-4ff1-a8ae-d78d1eedbb92": {
+    "asset": 1727588527615,
+    "meta": 1727589042188,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_Menu/VK_BTN.png"
+  },
+  "378b685e-0a4b-4041-b8c1-52594bfada71": {
+    "asset": 1727588527616,
+    "meta": 1727589042192,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Bonus_BTN_01.png"
+  },
+  "67f62b19-87c2-4ffa-8ba5-d2fad1fb1a1d": {
+    "asset": 1727588527616,
+    "meta": 1727589042193,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Boss_HP_Bar_1.png"
+  },
+  "3c5fe10c-1b6e-422c-964b-5565f9d8c748": {
+    "asset": 1727588527616,
+    "meta": 1727589042193,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Bonus_BTN_02.png"
+  },
+  "ec8b7940-24b2-4565-a37f-3cbc8f8e7c73": {
+    "asset": 1727588527617,
+    "meta": 1727589042196,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Boss_HP_Bar_3.png"
+  },
+  "2122377b-8d3d-49f9-95f3-e99f72ecb5e6": {
+    "asset": 1727588527616,
+    "meta": 1727589042197,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Boss_HP_Bar_2.png"
+  },
+  "4f9b3b63-99d7-47d7-a672-80aa831ccaf8": {
+    "asset": 1727588527617,
+    "meta": 1727589042197,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Boss_HP_Table.png"
+  },
+  "ddfce4a4-3c48-4527-8c0e-43c3baefd0f9": {
+    "asset": 1727588527617,
+    "meta": 1727589042200,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Boss_Name_Table.png"
+  },
+  "54a92db8-3c7c-4b5e-b70f-c7e0f9d35c8d": {
+    "asset": 1727588527617,
+    "meta": 1727589042200,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Cristal_Icon.png"
+  },
+  "2009db34-f0da-49bd-bdfe-026a01c6e5b0": {
+    "asset": 1727588527617,
+    "meta": 1727589042201,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Clock_Icon.png"
+  },
+  "da3486ec-aebd-451c-871c-48c0245a17aa": {
+    "asset": 1727588527617,
+    "meta": 1727589042204,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Health_Dot.png"
+  },
+  "a714202d-7caa-4390-b624-a4eca8cdeac0": {
+    "asset": 1727588527617,
+    "meta": 1727589042204,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Health_Bar_Table.png"
+  },
+  "cc9d83cd-a88c-444a-a721-7f68b702b31d": {
+    "asset": 1727588527617,
+    "meta": 1727589042205,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Pause_BTN.png"
+  },
+  "b50bd1be-64bd-4298-b9fe-aa71538aa1b3": {
+    "asset": 1727588527618,
+    "meta": 1727589042210,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/Stats_Bar.png"
+  },
+  "0701e2fb-a592-4109-8687-bfa205bf9db4": {
+    "asset": 1727588527618,
+    "meta": 1727589042210,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Pause/Hangar_BTN.png"
+  },
+  "87dd0e5b-ce1d-4bc3-aa9b-83d34b46ee22": {
+    "asset": 1727588527618,
+    "meta": 1727589042210,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Pause/Header.png"
+  },
+  "e53102f4-8bdd-47bf-98da-c9da1e37ce5e": {
+    "asset": 1727588527618,
+    "meta": 1727589042214,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Pause/Map_BTN.png"
+  },
+  "a307a0de-2117-49b9-b64f-6a939e17ec0c": {
+    "asset": 1727588527618,
+    "meta": 1727589042216,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Pause/Ok_BTN.png"
+  },
+  "4fb83780-abb5-4aa1-bc48-55c1d41225e5": {
+    "asset": 1727588527618,
+    "meta": 1727589042216,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Pause/Menu_BTN.png"
+  },
+  "a2389f4c-f594-4a3e-9185-9103ad81d24a": {
+    "asset": 1727588527618,
+    "meta": 1727589042221,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Pause/Score.png"
+  },
+  "bdf28b89-a47f-49fe-8023-a5ca34c544c9": {
+    "asset": 1727588527619,
+    "meta": 1727589042222,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Pause/Table.png"
+  },
+  "6f1a45ce-0170-40b7-8639-28b2c5d21caf": {
+    "asset": 1727588527616,
+    "meta": 1727589042222,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Main_UI/BG.png"
+  },
+  "830dccea-8f81-417b-b80e-e61c2b2adce8": {
+    "asset": 1727588527619,
+    "meta": 1727589042223,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Pause/Settings_BTN.png"
+  },
+  "e26c4b87-4645-462e-9862-69d05f730e69": {
+    "asset": 1727588527620,
+    "meta": 1727589042227,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Rating/Backward_BTN.png"
+  },
+  "54ee71f8-eebc-489a-9b5f-028738a196db": {
+    "asset": 1727588527620,
+    "meta": 1727589042228,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Rating/Header.png"
+  },
+  "ff22f828-eb8a-48e2-af4d-bd8b8b1344da": {
+    "asset": 1727588527620,
+    "meta": 1727589042228,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Rating/Forward_BTN.png"
+  },
+  "45a7e37b-66ca-4efa-bd6b-7128605f16b9": {
+    "asset": 1727588527620,
+    "meta": 1727589042232,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Rating/Table_01.png"
+  },
+  "b46bd14e-3654-4c92-bbd2-c80b7d2fcbb0": {
+    "asset": 1727588527620,
+    "meta": 1727589042233,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Rating/Ok_BTN.png"
+  },
+  "59d680fb-3675-4d15-9dae-54e49e664472": {
+    "asset": 1727588527620,
+    "meta": 1727589042233,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Rating/Menu_BTN.png"
+  },
+  "0d548355-b769-417c-8ca6-5999b5ccc778": {
+    "asset": 1727588527621,
+    "meta": 1727589042237,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Rating/Table_02.png"
+  },
+  "9e778a22-5615-4aca-bd94-8a3d403c79cf": {
+    "asset": 1727588527623,
+    "meta": 1727589042241,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Close_BTN.png"
+  },
+  "844c3c72-0e51-4a60-8c72-feeef3bb7a03": {
+    "asset": 1727588527619,
+    "meta": 1727589042242,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Pause/Window.png"
+  },
+  "5d5fde88-ad4b-42d1-ad9a-74f83d44cac6": {
+    "asset": 1727588527623,
+    "meta": 1727589042244,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Header.png"
+  },
+  "0957dc57-b112-49fc-b475-bb316dc9abeb": {
+    "asset": 1727588527623,
+    "meta": 1727589042246,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Menu_BTN.png"
+  },
+  "85aace5f-257e-42a6-8a6f-175db53d03a0": {
+    "asset": 1727588527624,
+    "meta": 1727589042247,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Music.png"
+  },
+  "98b9b9cb-3304-4eb5-b09a-badcf6808958": {
+    "asset": 1727588527624,
+    "meta": 1727589042250,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Music_BTN.png"
+  },
+  "ab351ac3-a744-4013-8281-7929d035fdad": {
+    "asset": 1727588527624,
+    "meta": 1727589042251,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Notifications.png"
+  },
+  "9503d1ff-4715-4f8e-994e-4ecb7918c5fa": {
+    "asset": 1727588527622,
+    "meta": 1727589042256,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Rating/Window.png"
+  },
+  "d14847af-36c4-4dad-b783-8520a2d3a29a": {
+    "asset": 1727588527624,
+    "meta": 1727589042257,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Notifications_BTN.png"
+  },
+  "206d0cf1-5744-4af6-a631-e525f6828a85": {
+    "asset": 1727588527624,
+    "meta": 1727589042257,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Ok_BTN.png"
+  },
+  "d47f8b26-41ae-4665-9351-cea979222412": {
+    "asset": 1727588527623,
+    "meta": 1727589042258,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Rating/Window_2.png"
+  },
+  "80dd3b7c-6136-48a7-ba35-9f775c8319cd": {
+    "asset": 1727588527624,
+    "meta": 1727589042261,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Sound.png"
+  },
+  "0233d15f-909a-4411-bbc9-c5cf878453e5": {
+    "asset": 1727588527624,
+    "meta": 1727589042263,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Vibration.png"
+  },
+  "0d53699e-918d-4ad0-8207-c37030f64e99": {
+    "asset": 1727588527624,
+    "meta": 1727589042263,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Sound_BTN.png"
+  },
+  "b67ce92b-84e1-4267-b110-3a8539fc4b71": {
+    "asset": 1727588527625,
+    "meta": 1727589042264,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Vibration_BTN.png"
+  },
+  "0a334bd0-7001-4c64-922c-5b620165f88c": {
+    "asset": 1727588527627,
+    "meta": 1727589042268,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Armor_Icon.png"
+  },
+  "573f1514-2dcd-4b4d-a2f0-bad26e3083c9": {
+    "asset": 1727588527627,
+    "meta": 1727589042269,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Close_BTN.png"
+  },
+  "9a47cd7c-2a6d-41c0-a8d2-235da6bd2d4d": {
+    "asset": 1727588527627,
+    "meta": 1727589042271,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Damage_Icon.png"
+  },
+  "ce78d97e-d999-4295-b964-ea620db72296": {
+    "asset": 1727588527627,
+    "meta": 1727589042273,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/HP_Icon.png"
+  },
+  "0ad6b0dc-43cd-4c7a-9de4-ea083f715ac8": {
+    "asset": 1727588527628,
+    "meta": 1727589042275,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Header.png"
+  },
+  "10f3eb65-e6e2-4c8d-ad5c-0653c510d05a": {
+    "asset": 1727588527628,
+    "meta": 1727589042276,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ok_BTN.png"
+  },
+  "d640ecf0-e4f7-45ca-9f9f-3e76fd9d7e5b": {
+    "asset": 1727588527628,
+    "meta": 1727589042280,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_1_1_BTN.png"
+  },
+  "98a0fbf6-fe47-40c6-9ab4-3f72e33923e4": {
+    "asset": 1727588527628,
+    "meta": 1727589042280,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_1_2_BTN.png"
+  },
+  "5bdbd87b-19d2-4626-bed9-16f434bd228e": {
+    "asset": 1727588527628,
+    "meta": 1727589042285,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_1_3_BTN.png"
+  },
+  "48dfd803-9259-4738-9f62-8656c2fa7de6": {
+    "asset": 1727588527628,
+    "meta": 1727589042286,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_1_4_BTN.png"
+  },
+  "13b7fad6-66dc-45d5-9c34-519ec063bf7d": {
+    "asset": 1727588527626,
+    "meta": 1727589042287,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Window.png"
+  },
+  "41796b4b-a229-4c54-bf41-0e1cabfeced9": {
+    "asset": 1727588527627,
+    "meta": 1727589042291,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Setting/Window_2.png"
+  },
+  "f635140f-0c93-48c0-b8e0-418a5e7c38a3": {
+    "asset": 1727588527628,
+    "meta": 1727589042291,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_2_1_BTN.png"
+  },
+  "a74b93b6-f8e6-41dd-81a4-9990212be57f": {
+    "asset": 1727588527629,
+    "meta": 1727589042292,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_2_2_BTN.png"
+  },
+  "65177652-b5fc-40b1-9869-2a4ec29e21ef": {
+    "asset": 1727588527629,
+    "meta": 1727589042293,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_2_3_BTN.png"
+  },
+  "70f389e6-abd1-4b1e-b403-52523b333da4": {
+    "asset": 1727588527629,
+    "meta": 1727589042296,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_2_4_BTN.png"
+  },
+  "97a68328-2fd7-44c9-9103-b5382c9241b0": {
+    "asset": 1727588527629,
+    "meta": 1727589042297,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_3_1_BTN.png"
+  },
+  "3851828e-8546-402f-895b-a884c7acd419": {
+    "asset": 1727588527629,
+    "meta": 1727589042299,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_3_2_BTN.png"
+  },
+  "e59f9c8a-a502-4eb1-b119-1f2203bb17c0": {
+    "asset": 1727588527577,
+    "meta": 1727589042307,
+    "relativePath": "resources/audio/board-click.mp3"
+  },
+  "fffe0ba4-61a3-4981-b329-6abb696f8d96": {
+    "asset": 1727588527578,
+    "meta": 1727589042308,
+    "relativePath": "resources/audio/game-over--lose.mp3"
+  },
+  "c2ae286a-ce25-442f-91ff-869fd863ec19": {
+    "asset": 1727588527630,
+    "meta": 1727589042301,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_3_3_BTN.png"
+  },
+  "f7b9633c-0c4b-4368-acea-083481de5185": {
+    "asset": 1727588527587,
+    "meta": 1727589042309,
+    "relativePath": "scripts/button-audio-effect/button_click_audio.mp3"
+  },
+  "cd3cb4f7-b0b0-477c-a870-ef2e423a5a91": {
+    "asset": 1727588527578,
+    "meta": 1727589042309,
+    "relativePath": "resources/audio/game-over--win.mp3"
+  },
+  "1a363931-eb2d-48f8-a65b-ef0103bc6145": {
+    "asset": 1727588527630,
+    "meta": 1727589042303,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_3_4_BTN.png"
+  },
+  "83d7f61b-398a-49ef-ba3d-5aa8653f638f": {
+    "asset": 1727588527630,
+    "meta": 1727589042304,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Speed_Icon.png"
+  },
+  "72f5ea8f-3752-4826-a0ea-5f7b0d788299": {
+    "asset": 1727588527577,
+    "meta": 1727589042311,
+    "relativePath": "resources/audio/board-hover.mp3"
+  },
+  "7dbb1554-c695-452a-a787-1d42c9d6e54a": {
+    "asset": 1727588527630,
+    "meta": 1727589042305,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Ship_Main_Icon.png"
+  },
+  "66570b0a-b336-4549-9e9a-c38b7ca59436": {
+    "asset": 1727588527631,
+    "meta": 1727589042310,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Table.png"
+  },
+  "26e6da23-92ec-4176-b559-84e28f57ccd5": {
+    "asset": 1727588527631,
+    "meta": 1727589042312,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Table_03.png"
+  },
+  "e5a644ee-33a7-424d-b11a-9ca9fa0db525": {
+    "asset": 1727588527631,
+    "meta": 1727589042313,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Upgrade_BTN.png"
+  },
+  "73990f29-757a-4b6f-8611-3e2fc8c6c5b8": {
+    "asset": 1727588527634,
+    "meta": 1727589042317,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop/Cristal_Icon.png"
+  },
+  "0ab38bfd-c5c5-4714-a58c-408c8b898de6": {
+    "asset": 1727588527634,
+    "meta": 1727589042317,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop/Dot_01.png"
+  },
+  "3b9d263f-ba4b-4e15-8827-250be43ecc03": {
+    "asset": 1727588527634,
+    "meta": 1727589042318,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop/Backward_BTN.png"
+  },
+  "4e98b88a-9260-467d-bab1-0b50e45b1bf1": {
+    "asset": 1727588527634,
+    "meta": 1727589042319,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop/Dot_02.png"
+  },
+  "be01260d-f4ea-4416-aa82-3fa33a710a0a": {
+    "asset": 1727588527577,
+    "meta": 1727589042329,
+    "relativePath": "resources/audio/barn-beat.mp3"
+  },
+  "1a5fa3ef-bd28-4abb-aa0f-7c3bcb73351b": {
+    "asset": 1727588527634,
+    "meta": 1727589042319,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop/Forward_BTN.png"
+  },
+  "c3b41ef2-be49-4701-aaff-9111b68c95e9": {
+    "asset": 1727588527634,
+    "meta": 1727589042322,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop/Header.png"
+  },
+  "09995ce5-7909-4d6d-baba-347aa3ac57e4": {
+    "asset": 1727588527635,
+    "meta": 1727589042323,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop/Ok_BTN.png"
+  },
+  "f27afe1c-a75a-4e59-8193-2e6c66b7ab53": {
+    "asset": 1727588527635,
+    "meta": 1727589042328,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop/Ship_Icon.png"
+  },
+  "280baca5-85aa-4832-9e9c-6881e7d0c4b6": {
+    "asset": 1727588527635,
+    "meta": 1727589042331,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop/Table_01.png"
+  },
+  "6b6f3fdf-ffe9-464b-abe6-27568a08ecb1": {
+    "asset": 1727588527635,
+    "meta": 1727589042331,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop/Table_02.png"
+  },
+  "fb5f40e2-9077-4c94-bcc9-46aec96fae62": {
+    "asset": 1727588527636,
+    "meta": 1727589042334,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/Close_BTN.png"
+  },
+  "28ccd828-1631-49c5-82a1-38cfe02b1843": {
+    "asset": 1727588527632,
+    "meta": 1727589042334,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Window.png"
+  },
+  "abbbd377-f777-4d58-96a6-f1d806285829": {
+    "asset": 1727588527637,
+    "meta": 1727589042336,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/Header.png"
+  },
+  "7edba91a-6125-4c83-9686-f01e23b6d344": {
+    "asset": 1727588527637,
+    "meta": 1727589042337,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/Menu_BTN.png"
+  },
+  "be30c51d-699a-4183-ac25-bab79eba4e3f": {
+    "asset": 1727588527637,
+    "meta": 1727589042340,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/No_ADS_Icon.png"
+  },
+  "ba3364cb-6fae-46d8-a2a7-fe5c04d1437a": {
+    "asset": 1727588527637,
+    "meta": 1727589042341,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/No_ADS.png"
+  },
+  "19ab0e3d-b4d6-49b2-a796-3492de324c8d": {
+    "asset": 1727588527634,
+    "meta": 1727589042342,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Parts/Window_2.png"
+  },
+  "92cb5d1c-095d-4f4a-919d-3746e678d0c6": {
+    "asset": 1727588527637,
+    "meta": 1727589042343,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/Prise_BTN_Table.png"
+  },
+  "e1f19237-d042-4786-9836-bd8db3de4dac": {
+    "asset": 1727588527637,
+    "meta": 1727589042343,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/Ok_BTN.png"
+  },
+  "f854fa37-12d5-489e-969e-4c7d9d939372": {
+    "asset": 1727588527637,
+    "meta": 1727589042346,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/Shop_Cristal_Icon_01.png"
+  },
+  "95f11ac2-5d2f-4b12-b4bc-2392e2d227c5": {
+    "asset": 1727588527637,
+    "meta": 1727589042346,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/Shop_Cristal_Icon_02.png"
+  },
+  "280adced-9dfb-4b5a-94a7-ce2a22248721": {
+    "asset": 1727588527638,
+    "meta": 1727589042347,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/Table_01.png"
+  },
+  "b4d2e543-7071-4adb-8bc3-973f9ff03b2a": {
+    "asset": 1727588527640,
+    "meta": 1727589042349,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/X100.png"
+  },
+  "a43c3e25-7a69-4f14-83c7-346c3210fd4e": {
+    "asset": 1727588527640,
+    "meta": 1727589042351,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/X1000.png"
+  },
+  "6ada8eb9-0ff7-4e63-999d-02bac2f56102": {
+    "asset": 1727588527640,
+    "meta": 1727589042352,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Armor.png"
+  },
+  "85bca19f-51d5-46e5-bfba-ce0d2ee3bd56": {
+    "asset": 1727588527640,
+    "meta": 1727589042352,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Armor_Icon.png"
+  },
+  "91907b52-ade9-4571-b8f3-257e215edd86": {
+    "asset": 1727588527640,
+    "meta": 1727589042354,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Close_BTN.png"
+  },
+  "65e8646f-1a62-463f-8ebe-5f8ef2a2b428": {
+    "asset": 1727588527636,
+    "meta": 1727589042355,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Ship_Shop/Window.png"
+  },
+  "4d56db1b-7b38-4c3f-8260-b74bc720a500": {
+    "asset": 1727588527640,
+    "meta": 1727589042356,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Cristal_Icon.png"
+  },
+  "7cf11587-4d51-42d5-8b99-8cf4af1652c3": {
+    "asset": 1727588527640,
+    "meta": 1727589042357,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Damage.png"
+  },
+  "046b5969-651f-4199-8768-4bdad4a3e97d": {
+    "asset": 1727588527640,
+    "meta": 1727589042360,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Damage_Icon.png"
+  },
+  "baec9127-0245-49c4-92c0-306b85ed83e3": {
+    "asset": 1727588527641,
+    "meta": 1727589042361,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/HP_Icon.png"
+  },
+  "922fc411-9904-490b-bc14-884edc1ccbda": {
+    "asset": 1727588527641,
+    "meta": 1727589042362,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Health.png"
+  },
+  "2eba5a53-084f-4e03-a248-65cffcae1a29": {
+    "asset": 1727588527641,
+    "meta": 1727589042363,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Header.png"
+  },
+  "85d2963a-bcf9-4dde-ba21-24616d02dfc3": {
+    "asset": 1727588527641,
+    "meta": 1727589042364,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Ok_BTN.png"
+  },
+  "990a1a25-7675-4b24-bc08-5d4ed9c77049": {
+    "asset": 1727588527641,
+    "meta": 1727589042365,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Price_BTN_Table.png"
+  },
+  "b3958e64-9883-40a3-84d6-d773ef74c79c": {
+    "asset": 1727588527641,
+    "meta": 1727589042365,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Speed.png"
+  },
+  "f83ae15e-a820-4e22-ac9c-1644c7d223df": {
+    "asset": 1727588527641,
+    "meta": 1727589042367,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Speed_Icon.png"
+  },
+  "b94bca79-a315-42da-90b1-9c33b6420b9e": {
+    "asset": 1727588527644,
+    "meta": 1727589042369,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose/Header.png"
+  },
+  "42d87668-9509-4671-b5b2-c6097e4f1018": {
+    "asset": 1727588527644,
+    "meta": 1727589042371,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose/Close_BTN.png"
+  },
+  "c18597cf-6631-42b9-b724-b2a0b049a779": {
+    "asset": 1727588527644,
+    "meta": 1727589042372,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose/Record.png"
+  },
+  "d2a9dc57-688a-4898-818e-ab9eb1dbeaf2": {
+    "asset": 1727588527644,
+    "meta": 1727589042373,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose/Play_BTN.png"
+  },
+  "188c73b9-c766-4b4b-96cd-4341a3663a7e": {
+    "asset": 1727588527639,
+    "meta": 1727589042374,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/Window.png"
+  },
+  "1b2b0072-e761-484b-af50-66b8d47beaf4": {
+    "asset": 1727588527644,
+    "meta": 1727589042376,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose/Replay_BTN.png"
+  },
+  "e7f1de0b-9f50-4f67-8e52-cb5456a96f9c": {
+    "asset": 1727588527644,
+    "meta": 1727589042377,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose/Score.png"
+  },
+  "cc5cec68-303b-456f-8e97-ff077e8d22cd": {
+    "asset": 1727588527640,
+    "meta": 1727589042379,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Shop/Window_2.png"
+  },
+  "754c3a91-5ccc-426a-83df-a925ccddda64": {
+    "asset": 1727588527644,
+    "meta": 1727589042381,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose/Star_01.png"
+  },
+  "1afd4ff7-7dd3-4e81-9bbf-c691f25f26f5": {
+    "asset": 1727588527645,
+    "meta": 1727589042383,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose/Table.png"
+  },
+  "77aa1d4b-1853-4270-8ec1-d15144fb7a80": {
+    "asset": 1727588527644,
+    "meta": 1727589042383,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose/Star_02.png"
+  },
+  "e77d7a35-7315-476f-a16e-042fe7b1a47e": {
+    "asset": 1727588527645,
+    "meta": 1727589042385,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose/Star_03.png"
+  },
+  "61d2248f-845c-4fd5-9d94-1397fde2c041": {
+    "asset": 1727588527646,
+    "meta": 1727589042387,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win/Header.png"
+  },
+  "480283ee-1f29-448c-a89d-091ade4bc5b3": {
+    "asset": 1727588527649,
+    "meta": 1727589042396,
+    "relativePath": "textures/space-shooter-game-gui/TXT/ethnocentric/ethnocentric_rg.ttf"
+  },
+  "3a54e5cc-fa30-4bd9-a47e-3a62a8b9bea0": {
+    "asset": 1727588527649,
+    "meta": 1727589042397,
+    "relativePath": "textures/space-shooter-game-gui/TXT/ethnocentric/ethnocentric_rg_it.ttf"
+  },
+  "df9fdf1a-3b49-4576-a237-50935f5f984a": {
+    "asset": 1727588527646,
+    "meta": 1727589042387,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win/Close_BTN.png"
+  },
+  "f51c64b5-4f29-4f18-81da-c18cd3878323": {
+    "asset": 1727588527646,
+    "meta": 1727589042392,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win/Play_BTN.png"
+  },
+  "e3d79992-347d-42bc-962e-b3416a1a8c7b": {
+    "asset": 1727588527646,
+    "meta": 1727589042395,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win/Replay_BTN.png"
+  },
+  "064e78b1-6614-45bf-ae3e-5ca0d02e693d": {
+    "asset": 1727588527642,
+    "meta": 1727589042395,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Window.png"
+  },
+  "295d879e-8f67-48a2-83e7-4c9845435e6a": {
+    "asset": 1727588527649,
+    "meta": 1727589042401,
+    "relativePath": "textures/space-shooter-game-gui/TXT/ethnocentric/read-this.html"
+  },
+  "aff3d962-0f0f-474a-a511-6817fac887d9": {
+    "asset": 1727588527646,
+    "meta": 1727589042397,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win/Record.png"
+  },
+  "a6edcbaf-d1c5-48f4-8f57-59a9320861b9": {
+    "asset": 1727588527646,
+    "meta": 1727589042398,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win/Score.png"
+  },
+  "e24ffb94-3ab4-4214-aaf2-a240df270d4b": {
+    "asset": 1727588527643,
+    "meta": 1727589042398,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Upgrade/Window_2.png"
+  },
+  "f463648f-168e-48bc-828a-7528e6af9ee3": {
+    "asset": 1727588527650,
+    "meta": 1727589042408,
+    "relativePath": "textures/space-shooter-game-gui/TXT/ethnocentric/typodermic-eula-02-2014.pdf"
+  },
+  "c1a67da0-062d-4f8c-8cc9-65581d5657df": {
+    "asset": 1727588527646,
+    "meta": 1727589042404,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win/Star_02.png"
+  },
+  "a3512567-acbe-4d87-9b00-cbba5e558284": {
+    "asset": 1727588527646,
+    "meta": 1727589042405,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win/Star_01.png"
+  },
+  "a4d05609-b9f9-49a3-9541-a800745b9a5b": {
+    "asset": 1727588527647,
+    "meta": 1727589042405,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win/Star_03.png"
+  },
+  "a282a163-0c9a-4909-8fc4-e13e53e3fa04": {
+    "asset": 1727588527645,
+    "meta": 1727589042406,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Lose/Window.png"
+  },
+  "0ed8bf33-847c-4e91-89f3-16b26dc7d729": {
+    "asset": 1727588527647,
+    "meta": 1727589042410,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win/Table.png"
+  },
+  "98f7e259-e28c-48ca-aeaa-cac746836ced": {
+    "asset": 1727588527651,
+    "meta": 1727589042412,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Bonus_Items/Barrier_Bonus.png"
+  },
+  "7eb4d0ea-6442-4702-90b3-d52a54338e93": {
+    "asset": 1727588527650,
+    "meta": 1727589042413,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Bonus_Items/Armor_Bonus.png"
+  },
+  "2807c21c-2cae-4d6c-a456-06c6275e8301": {
+    "asset": 1727588527651,
+    "meta": 1727589042414,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Bonus_Items/Damage_Bonus.png"
+  },
+  "509b5331-afb0-4139-91a2-076078832471": {
+    "asset": 1727588527651,
+    "meta": 1727589042416,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Bonus_Items/Enemy_Destroy_Bonus.png"
+  },
+  "02931757-aad4-4de8-9488-ed65ffd7afab": {
+    "asset": 1727588527651,
+    "meta": 1727589042416,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Bonus_Items/Enemy_Speed_Debuff.png"
+  },
+  "84704729-1440-4fe4-8e63-21eed7768491": {
+    "asset": 1727588527652,
+    "meta": 1727589042417,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Bonus_Items/HP_Bonus.png"
+  },
+  "2213be5b-28f1-4f5d-b82d-c9285d4310b0": {
+    "asset": 1727588527652,
+    "meta": 1727589042418,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Bonus_Items/Hero_Movement_Debuff.png"
+  },
+  "8c648661-e59d-4962-8d6d-3fb879747103": {
+    "asset": 1727588527652,
+    "meta": 1727589042421,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Bonus_Items/Hero_Speed_Debuff.png"
+  },
+  "f4e9edf4-cbca-4674-91c3-08cb230a31d5": {
+    "asset": 1727588527652,
+    "meta": 1727589042422,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Bonus_Items/Magnet_Bonus.png"
+  },
+  "ddb7eed8-0e21-41ef-9a43-2ecfbcde6333": {
+    "asset": 1727588527655,
+    "meta": 1727589042423,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Meteors/Meteor_02.png"
+  },
+  "033d05ff-487c-4194-a051-73d21802c0e9": {
+    "asset": 1727588527653,
+    "meta": 1727589042424,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Meteors/Meteor_01.png"
+  },
+  "dbbfdef8-59e7-474a-aa02-f091c3fd8d26": {
+    "asset": 1727588527652,
+    "meta": 1727589042425,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Bonus_Items/Rockets_Bonus.png"
+  },
+  "980146fe-9281-4933-a0d4-3e4d96c90b72": {
+    "asset": 1727588527655,
+    "meta": 1727589042428,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Meteors/Meteor_04.png"
+  },
+  "9495f379-b0a7-4699-b079-74b551047615": {
+    "asset": 1727588527655,
+    "meta": 1727589042429,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Meteors/Meteor_03.png"
+  },
+  "3d57036f-bdaf-4425-a9a3-d83f8628f404": {
+    "asset": 1727588527655,
+    "meta": 1727589042430,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Meteors/Meteor_05.png"
+  },
+  "e387dc9a-063d-4063-a53c-39b8f887c565": {
+    "asset": 1727588527655,
+    "meta": 1727589042431,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Meteors/Meteor_06.png"
+  },
+  "3fa95292-9902-4d49-b01d-486dfc108bfb": {
+    "asset": 1727588527648,
+    "meta": 1727589042434,
+    "relativePath": "textures/space-shooter-game-gui/PNG/You_Win/Window.png"
+  },
+  "21b440d3-7ebe-49ce-9902-38720c656c2e": {
+    "asset": 1727588527656,
+    "meta": 1727589042437,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Meteors/Meteor_09.png"
+  },
+  "d2b9aeb3-b423-41bd-93fd-59dd64d0b025": {
+    "asset": 1727588527656,
+    "meta": 1727589042438,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Meteors/Meteor_08.png"
+  },
+  "080dc6cd-ffe6-4b7c-9415-23e353c7fa00": {
+    "asset": 1727588527656,
+    "meta": 1727589042439,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Meteors/Meteor_07.png"
+  },
+  "094c0d62-3e99-4b3b-aff7-b6d06218b906": {
+    "asset": 1727588527656,
+    "meta": 1727589042439,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Meteors/Meteor_10.png"
+  },
+  "0e2f5210-cc7b-44f4-83f1-2a99d87e54c8": {
+    "asset": 1727588527657,
+    "meta": 1727589042443,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_01_2.png"
+  },
+  "8bda9f64-bcf6-4a9f-9bc5-ff02a659d380": {
+    "asset": 1727588527657,
+    "meta": 1727589042443,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_01_1.png"
+  },
+  "9cbf6560-55cb-459b-b058-e38ace18e325": {
+    "asset": 1727588527657,
+    "meta": 1727589042443,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_01.png"
+  },
+  "dd1da14c-3754-48a1-bf5f-0c09a296effd": {
+    "asset": 1727588527657,
+    "meta": 1727589042444,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_01_3.png"
+  },
+  "8363d1c8-312b-4e31-bcc3-13dcdb9370be": {
+    "asset": 1727588527657,
+    "meta": 1727589042444,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_01_4.png"
+  },
+  "dfbb125a-61f0-4fa2-9498-f5d05fbdb54a": {
+    "asset": 1727588527658,
+    "meta": 1727589042448,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_02_2.png"
+  },
+  "0d2e7263-306a-48fb-ac72-eacc8bb74008": {
+    "asset": 1727588527658,
+    "meta": 1727589042448,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_02_1.png"
+  },
+  "fd890593-0bee-48b5-b1f3-0f46cb2cc941": {
+    "asset": 1727588527658,
+    "meta": 1727589042449,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_02_4.png"
+  },
+  "049a4978-d1e1-4419-b8c5-1f16981e6b2a": {
+    "asset": 1727588527657,
+    "meta": 1727589042450,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_02.png"
+  },
+  "5dbffe2a-d802-448f-82e5-c05be5023759": {
+    "asset": 1727588527690,
+    "meta": 1727589042454,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs"
+  },
+  "30cd295c-493f-46e4-a23d-71d76449a57f": {
+    "asset": 1727588527713,
+    "meta": 1727589042455,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile"
+  },
+  "514363da-df19-4086-bc5f-864fb891173f": {
+    "asset": 1727588527658,
+    "meta": 1727589042451,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_02_3.png"
+  },
+  "ddad1061-53f0-4990-a48e-111e6455cc0e": {
+    "asset": 1727588527659,
+    "meta": 1727589042451,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_Light.png"
+  },
+  "d23284e2-b7e7-4e70-9e21-e9f65765d73c": {
+    "asset": 1727588527714,
+    "meta": 1727589042456,
+    "relativePath": "textures/space-shooter-game-objects/TXT/nulshock/nulshock bd.ttf"
+  },
+  "300ee2d2-6c92-4b41-9bf5-f85d288675d6": {
+    "asset": 1727588527659,
+    "meta": 1727589042454,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Crystal_02.png"
+  },
+  "047548cf-80fb-46f7-918f-03971083ca24": {
+    "asset": 1727588527658,
+    "meta": 1727589042454,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Bomb_03.png"
+  },
+  "5043db5d-89d2-4343-b910-c738a272631e": {
+    "asset": 1727588527659,
+    "meta": 1727589042455,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Crystal_01.png"
+  },
+  "51b27a35-8792-44aa-b73c-1a4719784156": {
+    "asset": 1727588527714,
+    "meta": 1727589042463,
+    "relativePath": "textures/space-shooter-game-objects/TXT/nulshock/read-this.rtf"
+  },
+  "954021f7-7ee4-433c-8846-3c745ba4d6c1": {
+    "asset": 1727588527659,
+    "meta": 1727589042456,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Crystal_03.png"
+  },
+  "d2648f68-6ec3-4776-84d4-6585d7153d9a": {
+    "asset": 1727588527714,
+    "meta": 1727589042465,
+    "relativePath": "textures/space-shooter-game-objects/TXT/nulshock/nulshock-family.gif"
+  },
+  "39b137e2-532b-4112-a393-1075961ae98d": {
+    "asset": 1727588527661,
+    "meta": 1727589042461,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Missile_01.png"
+  },
+  "7a7bff51-6dbb-4e19-85da-34561f22b697": {
+    "asset": 1727588527714,
+    "meta": 1727589042465,
+    "relativePath": "textures/space-shooter-game-objects/TXT/nulshock/typodermic-eula-02-2014.pdf"
+  },
+  "8a90d0c2-45d9-4593-8d0a-756e2441e062": {
+    "asset": 1727588527661,
+    "meta": 1727589042462,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Missile_02.png"
+  },
+  "a420ddbf-f692-488b-aa70-8096e4512e82": {
+    "asset": 1727588527661,
+    "meta": 1727589042462,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Rocket_Effect_01.png"
+  },
+  "f903c4c2-10a9-423f-b6b2-92041c14b1ac": {
+    "asset": 1727588527661,
+    "meta": 1727589042464,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Missile_03.png"
+  },
+  "e225ebdd-6af1-407a-92fc-d5e496df2206": {
+    "asset": 1727588527660,
+    "meta": 1727589042466,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Explosion_02.png"
+  },
+  "40926d8e-e484-45fe-9c69-8b314a1c6cf9": {
+    "asset": 1727588527661,
+    "meta": 1727589042466,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Rocket_Effect_02.png"
+  },
+  "04c5ebde-fbc5-492f-a174-f12e73dccea6": {
+    "asset": 1727588527660,
+    "meta": 1727589042467,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Props/Explosion_01.png"
+  },
+  "6a02b646-efed-4ba2-aa30-7bef6b442127": {
+    "asset": 1727588527591,
+    "meta": 1727589042471,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Backward_BTN.png"
+  },
+  "2eb0e39d-4756-42db-bcf4-a374636a56a1": {
+    "asset": 1727588527592,
+    "meta": 1727589042472,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Close_BTN.png"
+  },
+  "4728dc8b-5950-4dcc-925b-8d3b3589443a": {
+    "asset": 1727588527592,
+    "meta": 1727589042473,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/FAQ_BTN.png"
+  },
+  "16349d5c-8a2f-4324-aece-8df83dda5999": {
+    "asset": 1727588527593,
+    "meta": 1727589042473,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Info_BTN.png"
+  },
+  "603a692b-2a6f-47a1-ad40-7bbf3505fbff": {
+    "asset": 1727588527592,
+    "meta": 1727589042474,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Google_BTN.png"
+  },
+  "d4146273-1475-4746-a5cf-8bc6a45f7c13": {
+    "asset": 1727588527592,
+    "meta": 1727589042474,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Hangar_BTN.png"
+  },
+  "778fec10-6444-41a5-b667-8fe73d4e683f": {
+    "asset": 1727588527592,
+    "meta": 1727589042476,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Facebook_BTN.png"
+  },
+  "e14fef33-f0d3-411b-b656-cdee990a1b2c": {
+    "asset": 1727588527592,
+    "meta": 1727589042476,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Forward_BTN.png"
+  },
+  "b89df1ba-f1af-4d71-8468-ebcb923e3109": {
+    "asset": 1727588527593,
+    "meta": 1727589042477,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Menu_BTN.png"
+  },
+  "16284c87-64cd-4464-996e-07b3ff82f75d": {
+    "asset": 1727588527593,
+    "meta": 1727589042478,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/More_Games_BTN.png"
+  },
+  "d1724797-70e9-4a17-b4fe-90ed1dc94ead": {
+    "asset": 1727588527593,
+    "meta": 1727589042482,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Notifications_BTN.png"
+  },
+  "647021ea-fb94-475e-b3a4-52ae7bb25611": {
+    "asset": 1727588527593,
+    "meta": 1727589042483,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Ok_BTN.png"
+  },
+  "8b3b4816-c723-4b1e-a0ce-c59c0cc787c1": {
+    "asset": 1727588527594,
+    "meta": 1727589042483,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Rating_BTN.png"
+  },
+  "52a89472-d9ef-48b6-ad10-f38d7a061bf8": {
+    "asset": 1727588527593,
+    "meta": 1727589042484,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Music_BTN.png"
+  },
+  "958a9a40-916f-4575-a61a-4f6abd61f190": {
+    "asset": 1727588527594,
+    "meta": 1727589042486,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Play_BTN.png"
+  },
+  "6e180d74-5e56-4b9d-a37b-de87d7bc6891": {
+    "asset": 1727588527594,
+    "meta": 1727589042486,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Replay_BTN.png"
+  },
+  "1eef75cd-382d-4095-b814-c7ce31a3a34d": {
+    "asset": 1727588527594,
+    "meta": 1727589042487,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Pause_BTN.png"
+  },
+  "e7d42451-35b2-4147-bbb2-612c0a04b889": {
+    "asset": 1727588527594,
+    "meta": 1727589042488,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Settings_BTN.png"
+  },
+  "6bc17db9-7c71-4716-9bb9-c716c4c2cb17": {
+    "asset": 1727588527595,
+    "meta": 1727589042488,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Shop_BTN.png"
+  },
+  "9a7ebc06-4a98-4635-a2e2-4f99eeacf6c6": {
+    "asset": 1727588527595,
+    "meta": 1727589042492,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Sound_BTN.png"
+  },
+  "ce825969-7fa6-4f12-b49b-356ae371c2c2": {
+    "asset": 1727588527595,
+    "meta": 1727589042494,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/VK_BTN.png"
+  },
+  "1333c3c4-6f83-4f03-94fe-d4037e7eccdb": {
+    "asset": 1727588527595,
+    "meta": 1727589042494,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Upgrade_BTN.png"
+  },
+  "3d2f5f81-5199-4653-88e3-ed9c59ce38e5": {
+    "asset": 1727588527595,
+    "meta": 1727589042495,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Vibration_BTN.png"
+  },
+  "5ba9b9b4-80f5-4481-813b-e326602f6e67": {
+    "asset": 1727588527595,
+    "meta": 1727589042496,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs/Twitter_BTN.png"
+  },
+  "e9544937-0103-417f-b0d7-84434acadc92": {
+    "asset": 1727588527596,
+    "meta": 1727589042497,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Backward_BTN.png"
+  },
+  "1f2a84e0-5757-48c8-b655-75d18774c4f1": {
+    "asset": 1727588527596,
+    "meta": 1727589042497,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Close_BTN.png"
+  },
+  "ea9a201f-71c3-44c3-a043-b0c2ab5274e2": {
+    "asset": 1727588527596,
+    "meta": 1727589042498,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/FAQ_BTN.png"
+  },
+  "8163a68d-94f5-4168-8805-fb7d4213d412": {
+    "asset": 1727588527597,
+    "meta": 1727589042500,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Facebook_BTN.png"
+  },
+  "4dacbf7e-3ac1-4908-b3fb-0ff127c366cc": {
+    "asset": 1727588527597,
+    "meta": 1727589042501,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Forward_BTN.png"
+  },
+  "d9414ed0-5a97-4975-9cbe-781c4770e0c2": {
+    "asset": 1727588527597,
+    "meta": 1727589042502,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Google_BTN.png"
+  },
+  "a6732add-12af-4080-b163-bbfd3ad95962": {
+    "asset": 1727588527597,
+    "meta": 1727589042504,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Hangar_BTN.png"
+  },
+  "9418fa13-b052-410a-9ee2-dce16aea0fff": {
+    "asset": 1727588527598,
+    "meta": 1727589042505,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/More_Games_BTN.png"
+  },
+  "9b02fe63-6b39-40d0-b7d7-97e888773f98": {
+    "asset": 1727588527597,
+    "meta": 1727589042505,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Info_BTN.png"
+  },
+  "a5f73123-034c-4c2f-88bd-4a18722d6b59": {
+    "asset": 1727588527598,
+    "meta": 1727589042506,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Music_BTN.png"
+  },
+  "2bae87ba-d103-4998-a623-cff33d716ae9": {
+    "asset": 1727588527598,
+    "meta": 1727589042507,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Notifications_BTN.png"
+  },
+  "788b2f6c-9561-4828-acec-fb11f5198f93": {
+    "asset": 1727588527598,
+    "meta": 1727589042508,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Menu_BTN.png"
+  },
+  "4a3ee023-f30d-462c-9376-c212cc050e9c": {
+    "asset": 1727588527599,
+    "meta": 1727589042509,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Ok_BTN.png"
+  },
+  "283d44d6-c2b8-461b-8dc4-18cb508be8da": {
+    "asset": 1727588527599,
+    "meta": 1727589042511,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Pause_BTN.png"
+  },
+  "af22de18-26b2-4bf0-915d-bd0d3299c1a3": {
+    "asset": 1727588527599,
+    "meta": 1727589042511,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Play_BTN.png"
+  },
+  "ecb924e2-7215-4938-90ee-db0ca237089c": {
+    "asset": 1727588527599,
+    "meta": 1727589042513,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Rating_BTN.png"
+  },
+  "48f29c04-62a4-47cc-bd3e-6519e49a3d1f": {
+    "asset": 1727588527600,
+    "meta": 1727589042513,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Settings_BTN.png"
+  },
+  "46499d09-2009-4f26-a897-a5cf97e3bfed": {
+    "asset": 1727588527599,
+    "meta": 1727589042514,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Replay_BTN.png"
+  },
+  "4ae415bc-8957-40a2-b946-7d1c38adb27f": {
+    "asset": 1727588527600,
+    "meta": 1727589042515,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Shop_BTN.png"
+  },
+  "3ff26d99-5331-4b27-9522-bae81d90dbe1": {
+    "asset": 1727588527600,
+    "meta": 1727589042515,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Sound_BTN.png"
+  },
+  "b462d822-f055-4f39-978d-6a5cefa626dc": {
+    "asset": 1727588527600,
+    "meta": 1727589042519,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Twitter_BTN.png"
+  },
+  "1b76823e-1047-4a48-8bd1-5459513bc846": {
+    "asset": 1727588527600,
+    "meta": 1727589042519,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Upgrade_BTN.png"
+  },
+  "6c83c61c-84a6-40d7-a462-c7a598c6af84": {
+    "asset": 1727588527600,
+    "meta": 1727589042520,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/VK_BTN.png"
+  },
+  "288c278a-18c5-44f2-8f84-70ef0368636c": {
+    "asset": 1727588527601,
+    "meta": 1727589042522,
+    "relativePath": "textures/space-shooter-game-gui/PNG/Buttons/BTNs_Active/Vibration_BTN.png"
+  },
+  "b8f32c7e-a17d-4142-8437-f821555f1854": {
+    "asset": 1727588527662,
+    "meta": 1727589042532,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Explosion_001.png"
+  },
+  "db0419f4-fb67-4c56-a026-c78a67888be0": {
+    "asset": 1727588527662,
+    "meta": 1727589042534,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Explosion_000.png"
+  },
+  "6a570183-d49c-4940-85f2-3ab7f704ae71": {
+    "asset": 1727588527663,
+    "meta": 1727589042536,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Explosion_002.png"
+  },
+  "fa913492-c9fd-4d80-86aa-ad9af9ecb4f1": {
+    "asset": 1727588527667,
+    "meta": 1727589042538,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Explosion_005.png"
+  },
+  "fe599f45-2dcc-4fc8-82aa-9b92392aefb2": {
+    "asset": 1727588527665,
+    "meta": 1727589042546,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Explosion_003.png"
+  },
+  "48a18ba3-2aaf-4854-97e0-8031b8982581": {
+    "asset": 1727588527666,
+    "meta": 1727589042548,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Explosion_004.png"
+  },
+  "6d8b42bf-1d46-41c4-b63e-907f125a42b0": {
+    "asset": 1727588527669,
+    "meta": 1727589042552,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Explosion_007.png"
+  },
+  "e0b9ab0b-3fb8-48ef-8562-17edf121ceb0": {
+    "asset": 1727588527670,
+    "meta": 1727589042552,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Explosion_008.png"
+  },
+  "5c75b406-a92f-4b29-994b-fab6ac05228b": {
+    "asset": 1727588527670,
+    "meta": 1727589042554,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Idle_000.png"
+  },
+  "fcf25513-51f6-4c30-874e-cb4751cd0803": {
+    "asset": 1727588527670,
+    "meta": 1727589042557,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Idle_001.png"
+  },
+  "8112e38b-c57a-479a-b369-d1589c49c42c": {
+    "asset": 1727588527670,
+    "meta": 1727589042558,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Idle_002.png"
+  },
+  "94458432-4b7b-4b98-ad74-ae147f1304de": {
+    "asset": 1727588527671,
+    "meta": 1727589042559,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Idle_003.png"
+  },
+  "5eafadfb-7d06-49a4-b0f5-456d146fd2d4": {
+    "asset": 1727588527668,
+    "meta": 1727589042560,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Explosion_006.png"
+  },
+  "8fc43f65-031a-4475-bec2-4994cf8edbab": {
+    "asset": 1727588527671,
+    "meta": 1727589042564,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Idle_004.png"
+  },
+  "05a5770e-7cec-486b-aec1-3a23ca68474c": {
+    "asset": 1727588527671,
+    "meta": 1727589042565,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Idle_005.png"
+  },
+  "0dd0b1f4-f257-44a1-ac40-9470512b311e": {
+    "asset": 1727588527671,
+    "meta": 1727589042568,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Idle_006.png"
+  },
+  "7fe0f29c-c5da-4ed0-8049-3a71ed46f539": {
+    "asset": 1727588527672,
+    "meta": 1727589042570,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Idle_008.png"
+  },
+  "63bf67e4-d2c6-438f-864a-30b33bd7f747": {
+    "asset": 1727588527672,
+    "meta": 1727589042571,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Idle_009.png"
+  },
+  "67bd5c22-6175-4ead-94ae-46299084d64f": {
+    "asset": 1727588527672,
+    "meta": 1727589042571,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_1_Idle_007.png"
+  },
+  "883ad954-db62-47ec-9681-767e0d036e79": {
+    "asset": 1727588527673,
+    "meta": 1727589042580,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Explosion_000.png"
+  },
+  "0099a6a4-d5dd-4d8e-83ce-a003be16af43": {
+    "asset": 1727588527675,
+    "meta": 1727589042586,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Explosion_001.png"
+  },
+  "ad235c8a-653e-4069-8243-09ba57db2bca": {
+    "asset": 1727588527677,
+    "meta": 1727589042589,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Explosion_003.png"
+  },
+  "2546f66c-f461-4cc6-ae1b-f6f52098ea71": {
+    "asset": 1727588527676,
+    "meta": 1727589042591,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Explosion_002.png"
+  },
+  "6f1400e4-a49d-4c26-a413-3079d866c6a5": {
+    "asset": 1727588527680,
+    "meta": 1727589042591,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Idle_000.png"
+  },
+  "e175f612-cf1c-4727-90bc-0370c24bb02d": {
+    "asset": 1727588527677,
+    "meta": 1727589042595,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Explosion_004.png"
+  },
+  "82ea77f1-2183-408b-aa6c-49631828fe3d": {
+    "asset": 1727588527678,
+    "meta": 1727589042600,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Explosion_005.png"
+  },
+  "62c5209f-80d0-4790-9f42-ab0b1175c0a7": {
+    "asset": 1727588527680,
+    "meta": 1727589042601,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Explosion_008.png"
+  },
+  "9407eab4-4c61-45aa-9daa-2a6f21e35325": {
+    "asset": 1727588527679,
+    "meta": 1727589042608,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Explosion_006.png"
+  },
+  "17bdfdeb-e134-40c5-aa67-12266c3093b3": {
+    "asset": 1727588527680,
+    "meta": 1727589042608,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Explosion_007.png"
+  },
+  "d2b4b086-c85e-49c1-bb64-289015270c8e": {
+    "asset": 1727588527681,
+    "meta": 1727589042611,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Idle_001.png"
+  },
+  "98c9fa49-ec99-4c9f-a73b-1933668b6691": {
+    "asset": 1727588527681,
+    "meta": 1727589042612,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Idle_004.png"
+  },
+  "f58f3334-ea75-47a1-b85d-0e65e31733c7": {
+    "asset": 1727588527681,
+    "meta": 1727589042613,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Idle_002.png"
+  },
+  "e3fca52d-da55-4d11-9c5f-50cad36c6b02": {
+    "asset": 1727588527681,
+    "meta": 1727589042614,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Idle_005.png"
+  },
+  "e1844135-b7c6-4ec9-b4a8-5fba8b52abeb": {
+    "asset": 1727588527681,
+    "meta": 1727589042616,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Idle_003.png"
+  },
+  "54d178c2-82a1-49ea-b215-a3827d5e5ab4": {
+    "asset": 1727588527682,
+    "meta": 1727589042617,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Idle_006.png"
+  },
+  "316f2616-a3c6-4b43-a42d-940739a233d6": {
+    "asset": 1727588527682,
+    "meta": 1727589042622,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Idle_007.png"
+  },
+  "45ff10c6-ee41-41cd-b323-7f8ebdda4a75": {
+    "asset": 1727588527682,
+    "meta": 1727589042623,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Idle_008.png"
+  },
+  "d0efc90c-5d24-490a-9b2f-0d0ddb420d7b": {
+    "asset": 1727588527682,
+    "meta": 1727589042624,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_2_Idle_009.png"
+  },
+  "fa43e081-42a8-4e5f-ba69-ea661d112b54": {
+    "asset": 1727588527683,
+    "meta": 1727589042633,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Explosion_001.png"
+  },
+  "0f6f721d-183b-45f2-9e23-e64954d665db": {
+    "asset": 1727588527682,
+    "meta": 1727589042636,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Explosion_000.png"
+  },
+  "166eba34-797d-492d-9428-3613032ee296": {
+    "asset": 1727588527684,
+    "meta": 1727589042638,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Explosion_002.png"
+  },
+  "570685c5-f924-4928-a53b-ce34730212ed": {
+    "asset": 1727588527684,
+    "meta": 1727589042641,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Explosion_003.png"
+  },
+  "11ebd4df-8ccd-41cb-9b8c-9ac1c6af9272": {
+    "asset": 1727588527685,
+    "meta": 1727589042652,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Explosion_004.png"
+  },
+  "6dbc5de4-c07d-4f07-ab54-2cab3dc84be6": {
+    "asset": 1727588527686,
+    "meta": 1727589042653,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Explosion_005.png"
+  },
+  "7d7cc52a-bb37-4906-a22b-5015cbc290e9": {
+    "asset": 1727588527687,
+    "meta": 1727589042655,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Explosion_006.png"
+  },
+  "c2bc9ec2-a66e-4fca-a1cd-81a789de298d": {
+    "asset": 1727588527687,
+    "meta": 1727589042656,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Explosion_007.png"
+  },
+  "ad7d7885-48a9-4532-99ea-ff42b1193e72": {
+    "asset": 1727588527688,
+    "meta": 1727589042659,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Idle_000.png"
+  },
+  "58716168-28d6-4587-9b8c-b627b5a6f3b8": {
+    "asset": 1727588527688,
+    "meta": 1727589042664,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Idle_001.png"
+  },
+  "9aad17e9-e611-4581-a7ed-e68a934e42da": {
+    "asset": 1727588527689,
+    "meta": 1727589042665,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Idle_002.png"
+  },
+  "f5731e3c-11bb-497a-90d8-72c26c2a25ac": {
+    "asset": 1727588527688,
+    "meta": 1727589042665,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Explosion_008.png"
+  },
+  "a3fb7dee-d59f-4e7a-b144-414894031444": {
+    "asset": 1727588527689,
+    "meta": 1727589042666,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Idle_003.png"
+  },
+  "39cc942e-1643-4dd3-b5a8-bc542b4072d0": {
+    "asset": 1727588527689,
+    "meta": 1727589042674,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Idle_004.png"
+  },
+  "dd7beae1-2fb9-41ab-b553-2d7d42bd9bf6": {
+    "asset": 1727588527690,
+    "meta": 1727589042675,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Idle_006.png"
+  },
+  "6f05fe65-5b73-4316-aa2e-abe5b9f4751a": {
+    "asset": 1727588527689,
+    "meta": 1727589042676,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Idle_005.png"
+  },
+  "7d9ea272-903c-42d8-9159-816a510af11c": {
+    "asset": 1727588527690,
+    "meta": 1727589042676,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Idle_007.png"
+  },
+  "4a07b0b6-0318-43ef-b236-e43d26b4f35f": {
+    "asset": 1727588527690,
+    "meta": 1727589042680,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Idle_008.png"
+  },
+  "97330902-0848-497b-a25f-e6d207c5e9d5": {
+    "asset": 1727588527690,
+    "meta": 1727589042684,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Bombs/Bomb_3_Idle_009.png"
+  },
+  "6c603c18-5903-4973-8892-838a89c4e62a": {
+    "asset": 1727588527691,
+    "meta": 1727589042690,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Explosion_000.png"
+  },
+  "0cb7d44f-bf41-447f-b2df-d423184d8f29": {
+    "asset": 1727588527691,
+    "meta": 1727589042692,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Explosion_001.png"
+  },
+  "e5d83674-094d-4f35-80f6-0f945c8bfdb5": {
+    "asset": 1727588527692,
+    "meta": 1727589042694,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Explosion_002.png"
+  },
+  "2493bb6e-2ce0-478d-ae2e-0bfae59e232e": {
+    "asset": 1727588527692,
+    "meta": 1727589042700,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Explosion_003.png"
+  },
+  "59965e17-c8be-4a17-a3a5-8e2dd3ac091b": {
+    "asset": 1727588527695,
+    "meta": 1727589042710,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Explosion_007.png"
+  },
+  "9c9e4b2b-cc87-4e57-a23b-234813e327a1": {
+    "asset": 1727588527693,
+    "meta": 1727589042712,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Explosion_004.png"
+  },
+  "3865c76c-6757-416a-8e89-651ead60ca55": {
+    "asset": 1727588527693,
+    "meta": 1727589042713,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Explosion_005.png"
+  },
+  "b4ce582a-6eec-4de4-8c77-a1295aecbbfb": {
+    "asset": 1727588527694,
+    "meta": 1727589042715,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Explosion_006.png"
+  },
+  "97d1e2e3-f222-4c55-b0f3-5abfc70e6f09": {
+    "asset": 1727588527696,
+    "meta": 1727589042716,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Flying_000.png"
+  },
+  "224aaf1f-f949-4933-b493-88bfdf490e6b": {
+    "asset": 1727588527697,
+    "meta": 1727589042722,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Flying_003.png"
+  },
+  "797951fd-f60f-42b5-8ef9-bbb0bb3904c2": {
+    "asset": 1727588527696,
+    "meta": 1727589042723,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Flying_002.png"
+  },
+  "5930f056-01ca-4cdf-b5f4-e616c59a9fdf": {
+    "asset": 1727588527696,
+    "meta": 1727589042723,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Flying_001.png"
+  },
+  "c61da481-869b-43a8-9b76-b90c846fa119": {
+    "asset": 1727588527695,
+    "meta": 1727589042729,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Explosion_008.png"
+  },
+  "f6a676ca-e328-44d0-87e1-f8727502df17": {
+    "asset": 1727588527697,
+    "meta": 1727589042732,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Flying_004.png"
+  },
+  "fc13bd13-2522-4e42-8dce-e44d21d54d5a": {
+    "asset": 1727588527697,
+    "meta": 1727589042733,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Flying_006.png"
+  },
+  "29f20271-8135-4c13-8497-bb37f2a9ac83": {
+    "asset": 1727588527698,
+    "meta": 1727589042734,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Flying_007.png"
+  },
+  "9f518d93-d531-47d2-8625-daee5d71ef72": {
+    "asset": 1727588527697,
+    "meta": 1727589042736,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Flying_005.png"
+  },
+  "33193d7c-bb1e-4b96-945e-bf803fd1f360": {
+    "asset": 1727588527698,
+    "meta": 1727589042738,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Flying_008.png"
+  },
+  "d572f1c6-f17a-4520-9b81-cf4c96096463": {
+    "asset": 1727588527698,
+    "meta": 1727589042740,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_1_Flying_009.png"
+  },
+  "5405b9f2-1e21-4b11-be86-f4abd973e697": {
+    "asset": 1727588527698,
+    "meta": 1727589042745,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Explosion_000.png"
+  },
+  "3378a7b2-4f3c-4e39-8f8a-e29c49a37518": {
+    "asset": 1727588527699,
+    "meta": 1727589042749,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Explosion_001.png"
+  },
+  "b68717c8-88e3-4e02-a9b6-3081728d5b14": {
+    "asset": 1727588527699,
+    "meta": 1727589042751,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Explosion_002.png"
+  },
+  "014744cf-d1c6-4038-a629-6fa4e81fec98": {
+    "asset": 1727588527700,
+    "meta": 1727589042759,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Explosion_003.png"
+  },
+  "694d7526-231c-4316-964a-37d82dfaabf9": {
+    "asset": 1727588527701,
+    "meta": 1727589042767,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Explosion_004.png"
+  },
+  "cba01ce5-d663-4d7c-a555-7bca805962a8": {
+    "asset": 1727588527701,
+    "meta": 1727589042768,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Explosion_005.png"
+  },
+  "bd889887-c3e8-4bef-ade5-538ef1d566a1": {
+    "asset": 1727588527703,
+    "meta": 1727589042769,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Explosion_007.png"
+  },
+  "d0f4e673-7d8e-483d-acfe-334a5ca0f733": {
+    "asset": 1727588527703,
+    "meta": 1727589042772,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Flying_000.png"
+  },
+  "8e404773-c5d5-4c9a-93fa-034b8399288d": {
+    "asset": 1727588527702,
+    "meta": 1727589042775,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Explosion_006.png"
+  },
+  "9281334b-6675-4486-8d60-e3f047b0cfe9": {
+    "asset": 1727588527704,
+    "meta": 1727589042779,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Flying_001.png"
+  },
+  "8e97009d-0653-4d04-bafe-0892a4c6bc13": {
+    "asset": 1727588527704,
+    "meta": 1727589042780,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Flying_002.png"
+  },
+  "623cefe9-e550-4283-80d8-5ed8b74b5fe8": {
+    "asset": 1727588527704,
+    "meta": 1727589042781,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Flying_003.png"
+  },
+  "18cab7db-bcff-480a-b10d-241738c4feca": {
+    "asset": 1727588527703,
+    "meta": 1727589042786,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Explosion_008.png"
+  },
+  "05b2864e-305f-484d-9565-634add869fd1": {
+    "asset": 1727588527704,
+    "meta": 1727589042788,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Flying_004.png"
+  },
+  "6cd19aff-9330-4e7a-b053-8c860445da0e": {
+    "asset": 1727588527704,
+    "meta": 1727589042789,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Flying_005.png"
+  },
+  "a2cfb349-84da-4b40-b682-c59cb7bebf6f": {
+    "asset": 1727588527705,
+    "meta": 1727589042790,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Flying_007.png"
+  },
+  "47f7d3d7-c0ee-4fb2-8035-17c2f3ec67f1": {
+    "asset": 1727588527705,
+    "meta": 1727589042792,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Flying_006.png"
+  },
+  "2e2aebfa-fa8c-4983-bdc0-ff5c04db7882": {
+    "asset": 1727588527705,
+    "meta": 1727589042797,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Flying_008.png"
+  },
+  "db0fb4bc-1d74-45ac-b7ff-0c54dab09722": {
+    "asset": 1727588527705,
+    "meta": 1727589042799,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_2_Flying_009.png"
+  },
+  "09ac4f81-735e-4b79-b9db-841af031bea4": {
+    "asset": 1727588527705,
+    "meta": 1727589042804,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Explosion_000.png"
+  },
+  "202c000a-b77e-474c-8c1b-603646df3def": {
+    "asset": 1727588527706,
+    "meta": 1727589042806,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Explosion_001.png"
+  },
+  "150fcb5e-d1fe-4bd2-8b3f-4dae8a243062": {
+    "asset": 1727588527707,
+    "meta": 1727589042812,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Explosion_002.png"
+  },
+  "5a29548d-ff23-48b3-bece-9278cf4299b0": {
+    "asset": 1727588527708,
+    "meta": 1727589042815,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Explosion_004.png"
+  },
+  "59101240-287c-4096-ad06-8f48d7761983": {
+    "asset": 1727588527707,
+    "meta": 1727589042817,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Explosion_003.png"
+  },
+  "17ffe999-f95a-49d0-9d40-278b4667cefa": {
+    "asset": 1727588527709,
+    "meta": 1727589042819,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Explosion_005.png"
+  },
+  "12858076-a402-45de-bba0-f295041bb551": {
+    "asset": 1727588527711,
+    "meta": 1727589042828,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Flying_000.png"
+  },
+  "a710abae-fb75-4ec5-b997-a5a09cbdbce6": {
+    "asset": 1727588527710,
+    "meta": 1727589042831,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Explosion_007.png"
+  },
+  "33eff458-ba0e-489b-8416-01578efb2c9a": {
+    "asset": 1727588527709,
+    "meta": 1727589042832,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Explosion_006.png"
+  },
+  "c3a33ef2-1707-4f83-8beb-9626ab7e8ba8": {
+    "asset": 1727588527711,
+    "meta": 1727589042833,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Explosion_008.png"
+  },
+  "f9e2420e-0c84-49a4-b326-be10cd58ddc8": {
+    "asset": 1727588527711,
+    "meta": 1727589042835,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Flying_002.png"
+  },
+  "40c731eb-ae3b-4500-860d-a30e8f3fc24c": {
+    "asset": 1727588527711,
+    "meta": 1727589042837,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Flying_001.png"
+  },
+  "4c1462f0-35e1-4c37-bd05-8bc40b3f5c64": {
+    "asset": 1727588527711,
+    "meta": 1727589042838,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Flying_003.png"
+  },
+  "65d99866-d1c5-4518-a7f6-ee234a88bbf5": {
+    "asset": 1727588527712,
+    "meta": 1727589042842,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Flying_005.png"
+  },
+  "4b10e0fe-87c9-44a0-9108-761a84c81f5c": {
+    "asset": 1727588527712,
+    "meta": 1727589042844,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Flying_004.png"
+  },
+  "b554cda3-1a94-4e1f-a6bc-dfa9f6f2ec1e": {
+    "asset": 1727588527712,
+    "meta": 1727589042844,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Flying_006.png"
+  },
+  "0261f886-4eb4-4ff7-ad5c-2236325922d5": {
+    "asset": 1727588527712,
+    "meta": 1727589042847,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Flying_007.png"
+  },
+  "8c9c684a-bce1-416e-a83c-e61a64a8eb72": {
+    "asset": 1727588527712,
+    "meta": 1727589042848,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Flying_008.png"
+  },
+  "61f7d919-9c6b-4040-900d-82211e836203": {
+    "asset": 1727588527713,
+    "meta": 1727589042849,
+    "relativePath": "textures/space-shooter-game-objects/PNG/Sprites/Missile/Missile_3_Flying_009.png"
+  },
+  "0f8441ba-9935-4979-b5ed-9b6391c31404": {
+    "asset": 1727593064822,
+    "meta": 1727593066526,
+    "relativePath": "scripts/board.js"
+  },
+  "ab161dba-c313-4dab-a0de-a75d17a7287e": {
+    "asset": 1727593736471,
+    "meta": 1727593851508,
+    "relativePath": "scripts/meteor.js"
+  },
+  "690298db-aff7-475d-9fd4-913a28c500d4": {
+    "asset": 1727594247734,
+    "meta": 1727594249281,
+    "relativePath": "scripts/game.js"
+  }
+}

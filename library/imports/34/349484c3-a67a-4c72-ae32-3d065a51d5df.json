@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "X1000",
+    "texture": "a43c3e25-7a69-4f14-83c7-346c3210fd4e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      226,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      226,
+      46
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

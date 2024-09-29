@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Health_Bar_Table",
+    "texture": "a714202d-7caa-4390-b624-a4eca8cdeac0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      400,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      400,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

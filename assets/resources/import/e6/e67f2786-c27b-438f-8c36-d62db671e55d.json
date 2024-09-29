@@ -1,0 +1,1 @@
+[1,0,0,[["cc.AnimationClip",["_name","_duration","sample","curveData"],-1]],[[0,0,1,2,3,5]],[[0,"slice-in",0.8,10,{"paths":{"cover":{"props":{"opacity":[{"frame":0,"value":0},{"frame":0.5,"value":150}]}},"ScrollView":{"props":{"y":[{"frame":0,"value":800,"curve":"cubicInOut"},{"frame":0.8,"value":0}],"opacity":[{"frame":0,"value":0},{"frame":0.5,"value":255}]}}}}]],0,0,[],[],[]]

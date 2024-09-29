@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Cristal_Icon",
+    "texture": "4d56db1b-7b38-4c3f-8260-b74bc720a500",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      34,
+      53
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      34,
+      54
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

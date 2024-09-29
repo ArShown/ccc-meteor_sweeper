@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Notifications",
+    "texture": "ab351ac3-a744-4013-8281-7929d035fdad",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      497,
+      46
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      498,
+      46
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

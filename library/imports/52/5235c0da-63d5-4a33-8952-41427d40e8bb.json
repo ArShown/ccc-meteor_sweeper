@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Music",
+    "texture": "85aace5f-257e-42a6-8a6f-175db53d03a0",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      216,
+      46
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      217,
+      46
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Meteor_06",
+    "texture": "e387dc9a-063d-4063-a53c-39b8f887c565",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      300,
+      288
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      300,
+      288
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

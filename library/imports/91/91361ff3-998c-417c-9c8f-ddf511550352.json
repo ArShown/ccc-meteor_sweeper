@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Ship_1_4_BTN",
+    "texture": "48dfd803-9259-4738-9f62-8656c2fa7de6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      211,
+      210
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      211,
+      211
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

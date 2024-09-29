@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Upgrade_BTN",
+    "texture": "e5a644ee-33a7-424d-b11a-9ca9fa0db525",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      210,
+      210
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      210,
+      211
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Map_BTN",
+    "texture": "a1086566-af56-4eba-99aa-1a3598b5fa85",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      410,
+      120
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      410,
+      121
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

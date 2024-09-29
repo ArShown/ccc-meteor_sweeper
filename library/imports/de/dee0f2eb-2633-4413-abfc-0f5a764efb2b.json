@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Damage",
+    "texture": "7cf11587-4d51-42d5-8b99-8cf4af1652c3",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      293,
+      45
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      294,
+      45
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

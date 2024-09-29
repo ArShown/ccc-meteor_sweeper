@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Prise_BTN_Table",
+    "texture": "92cb5d1c-095d-4f4a-919d-3746e678d0c6",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      260,
+      100
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      261,
+      101
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

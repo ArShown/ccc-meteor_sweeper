@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Rocket_Effect_01",
+    "texture": "a420ddbf-f692-488b-aa70-8096e4512e82",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      51,
+      161
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      51,
+      161
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

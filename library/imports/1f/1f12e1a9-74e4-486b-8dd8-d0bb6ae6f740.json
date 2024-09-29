@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Bomb_1_Idle_004",
+    "texture": "8fc43f65-031a-4475-bec2-4994cf8edbab",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      151,
+      300
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      151,
+      301
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

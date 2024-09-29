@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Missile_1_Explosion_000",
+    "texture": "6c603c18-5903-4973-8892-838a89c4e62a",
+    "atlas": "",
+    "rect": [
+      335,
+      255,
+      141,
+      300
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      810,
+      810
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

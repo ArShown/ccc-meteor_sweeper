@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Exit_BTN",
+    "texture": "4b788cdc-14ea-48cd-afcf-2bc5581660b7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      410,
+      120
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      410,
+      121
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Armor_Icon",
+    "texture": "0a334bd0-7001-4c64-922c-5b620165f88c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      65,
+      61
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      65,
+      61
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

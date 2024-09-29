@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Armor_Bar_Dot",
+    "texture": "9dc83f43-74de-4541-af1f-ec7aeb8f8aef",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      30,
+      58
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      30,
+      58
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
